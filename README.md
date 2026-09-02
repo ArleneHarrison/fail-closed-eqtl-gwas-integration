@@ -1,6 +1,6 @@
 # Fail-closed regional eQTL–GWAS integration
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22241026.svg)](https://doi.org/10.5281/zenodo.22241026)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22242564.svg)](https://doi.org/10.5281/zenodo.22242564)
 
 Versioned code and reproducibility materials for:
 
@@ -73,9 +73,9 @@ The exact file-level scope is described in [`LICENSE_SCOPE.md`](LICENSE_SCOPE.md
 
 Please cite the archived release:
 
-> Tao, Z., Zhang, Y., Zhong, C., Zhou, J., & Fan, G. (2026). *An executable fail-closed contract for regional eQTL–GWAS integration: a multi-tissue technical evaluation in coronary artery disease and heart failure* (Version 0.1.2) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.22241026
+> Tao, Z., Zhang, Y., Zhong, C., Zhou, J., & Fan, G. (2026). *An executable fail-closed contract for regional eQTL–GWAS integration: a multi-tissue technical evaluation in coronary artery disease and heart failure* (Version 0.1.2) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.22242564
 
-The concept DOI for all versions is `10.5281/zenodo.22241026`. Version 0.1.2 restores the complete author order: Zhiyong Tao, Yiwei Zhang, Chulin Zhong, Jin Zhou, and Guohua Fan. The version-specific DOI is added here after Zenodo archives the release.
+The version-specific DOI is `10.5281/zenodo.22242564`; the concept DOI for all versions is `10.5281/zenodo.22241026`. Version 0.1.2 restores the complete author order: Zhiyong Tao, Yiwei Zhang, Chulin Zhong, Jin Zhou, and Guohua Fan.
 
 ## Integrity
 

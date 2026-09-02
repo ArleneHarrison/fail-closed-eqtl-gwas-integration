@@ -1,5 +1,6 @@
 # v0.1.2 — complete author-order correction
 
+**Archived release DOI:** [10.5281/zenodo.22242564](https://doi.org/10.5281/zenodo.22242564)  
 **All-versions concept DOI:** [10.5281/zenodo.22241026](https://doi.org/10.5281/zenodo.22241026)
 
 This release restores the complete author order: Zhiyong Tao, Yiwei Zhang, Chulin Zhong, Jin Zhou, and Guohua Fan. Zhiyong Tao is affiliated with the Department of Thoracic Surgery, Renmin Hospital of Wuhan University; Yiwei Zhang is affiliated with Peking Union Medical College Hospital. It updates `CITATION.cff`, `.zenodo.json`, CodeMeta, copyright notices, and public citation guidance.

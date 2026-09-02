@@ -5,11 +5,11 @@ type: software
 version: 0.1.2
 date-released: 2026-09-02
 license: Apache-2.0
-doi: 10.5281/zenodo.22241026
+doi: 10.5281/zenodo.22242564
 identifiers:
   - type: doi
-    value: 10.5281/zenodo.22241026
-    description: "All-versions concept DOI; the v0.1.2 version DOI is added after archiving"
+    value: 10.5281/zenodo.22242564
+    description: "Version 0.1.2 archived release"
 authors:
   - family-names: Tao
     given-names: Zhiyong
