@@ -3,10 +3,10 @@
   "@type": "SoftwareSourceCode",
   "name": "Fail-closed regional eQTL–GWAS integration",
   "description": "An executable and auditable fail-closed contract for regional eQTL–GWAS integration with synthetic verification and a multi-tissue cardiovascular technical evaluation.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "datePublished": "2026-09-02",
-  "identifier": "https://doi.org/10.5281/zenodo.22241027",
-  "sameAs": "https://zenodo.org/records/22241027",
+  "identifier": "https://doi.org/10.5281/zenodo.22241026",
+  "sameAs": "https://doi.org/10.5281/zenodo.22241026",
   "codeRepository": "https://github.com/ArleneHarrison/fail-closed-eqtl-gwas-integration",
   "license": "https://spdx.org/licenses/Apache-2.0",
   "programmingLanguage": ["Python", "R", "Shell"],
@@ -22,17 +22,17 @@
   "author": [
     {
       "@type": "Person",
-      "givenName": "Zhiyong",
-      "familyName": "Tao",
-      "@id": "https://orcid.org/0009-0001-2454-2432",
-      "affiliation": "Department of Cardiology, Renmin Hospital of Wuhan University"
+      "givenName": "Chulin",
+      "familyName": "Zhong",
+      "@id": "https://orcid.org/0009-0001-0840-3846",
+      "affiliation": "Department of Emergency Medicine, Renmin Hospital of Wuhan University"
     },
     {
       "@type": "Person",
-      "givenName": "Yiwei",
-      "familyName": "Zhang",
-      "@id": "https://orcid.org/0009-0008-7513-7956",
-      "affiliation": "Department of Cardiology, Renmin Hospital of Wuhan University"
+      "givenName": "Jin",
+      "familyName": "Zhou",
+      "@id": "https://orcid.org/0009-0005-4272-4538",
+      "affiliation": "Department of Emergency Medicine, Renmin Hospital of Wuhan University"
     },
     {
       "@type": "Person",

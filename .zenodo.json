@@ -1,18 +1,18 @@
 {
   "title": "An executable fail-closed contract for regional eQTL–GWAS integration: a multi-tissue technical evaluation in coronary artery disease and heart failure",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "upload_type": "software",
   "description": "Versioned software and reproducibility materials for an executable fail-closed contract for regional eQTL–GWAS integration. The release includes synthetic verification, locked protocols, tests, aggregate audit outputs, and a prospectively frozen multi-tissue cardiovascular technical evaluation. It supports workflow-reliability and failure-handling claims, not new biological associations, causal effects, clinical utility, or general superiority claims. Raw third-party GWAS, eQTL, genotype-reference data, posterior objects, and controlled-access materials are not redistributed.",
   "creators": [
     {
-      "name": "Tao, Zhiyong",
-      "affiliation": "Department of Cardiology, Renmin Hospital of Wuhan University",
-      "orcid": "0009-0001-2454-2432"
+      "name": "Zhong, Chulin",
+      "affiliation": "Department of Emergency Medicine, Renmin Hospital of Wuhan University",
+      "orcid": "0009-0001-0840-3846"
     },
     {
-      "name": "Zhang, Yiwei",
-      "affiliation": "Department of Cardiology, Renmin Hospital of Wuhan University",
-      "orcid": "0009-0008-7513-7956"
+      "name": "Zhou, Jin",
+      "affiliation": "Department of Emergency Medicine, Renmin Hospital of Wuhan University",
+      "orcid": "0009-0005-4272-4538"
     },
     {
       "name": "Fan, Guohua",

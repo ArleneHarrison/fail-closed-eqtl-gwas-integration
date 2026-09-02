@@ -1,11 +1,10 @@
-# v0.1.0 — submission release
+# v0.1.1 — corrected author metadata release
 
-**Archived release DOI:** [10.5281/zenodo.22241027](https://doi.org/10.5281/zenodo.22241027)  
-**All-versions concept DOI:** [10.5281/zenodo.22241026](https://doi.org/10.5281/zenodo.22241026)
+This release corrects the creator and citation metadata to the final author list: Chulin Zhong, Jin Zhou, and Guohua Fan. It updates `CITATION.cff`, `.zenodo.json`, CodeMeta, copyright notices, and public citation guidance.
 
-This is the first public, versioned release of the software and reproducibility package accompanying the manuscript *An executable fail-closed contract for regional eQTL–GWAS integration: a multi-tissue technical evaluation in coronary artery disease and heart failure*.
+The executable code, tests, frozen protocols, generated audit outputs, figures, tables, and scientific interpretation boundaries are unchanged from v0.1.0.
 
-## Included verification record
+## Verification record retained unchanged
 
 - 93 prior-verification Python tests.
 - 25 external-validation Python tests.

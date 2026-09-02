@@ -1,6 +1,6 @@
 # License scope
 
-Copyright 2026 Zhiyong Tao, Yiwei Zhang, and Guohua Fan.
+Copyright 2026 Chulin Zhong, Jin Zhou, and Guohua Fan.
 
 This repository uses two licenses because it contains both executable software and research materials.
 
