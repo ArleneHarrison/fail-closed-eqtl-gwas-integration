@@ -1,5 +1,7 @@
 # Fail-closed regional eQTL–GWAS integration
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22241027.svg)](https://doi.org/10.5281/zenodo.22241027)
+
 Versioned code and reproducibility materials for:
 
 > **An executable fail-closed contract for regional eQTL–GWAS integration: a multi-tissue technical evaluation in coronary artery disease and heart failure**
@@ -69,7 +71,11 @@ The exact file-level scope is described in [`LICENSE_SCOPE.md`](LICENSE_SCOPE.md
 
 ## Citation
 
-Please cite the archived release shown in the repository's GitHub **About** panel and in `CITATION.cff`. A DOI badge and DOI-based citation will be added after the first Zenodo archive is minted. Until then, cite version `v0.1.0` and the three creators listed in `CITATION.cff`.
+Please cite the archived release:
+
+> Tao, Z., Zhang, Y., & Fan, G. (2026). *An executable fail-closed contract for regional eQTL–GWAS integration: a multi-tissue technical evaluation in coronary artery disease and heart failure* (Version 0.1.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.22241027
+
+The version-specific DOI is `10.5281/zenodo.22241027`; the concept DOI for all versions is `10.5281/zenodo.22241026`.
 
 ## Integrity
 

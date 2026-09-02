@@ -1,5 +1,8 @@
 # v0.1.0 — submission release
 
+**Archived release DOI:** [10.5281/zenodo.22241027](https://doi.org/10.5281/zenodo.22241027)  
+**All-versions concept DOI:** [10.5281/zenodo.22241026](https://doi.org/10.5281/zenodo.22241026)
+
 This is the first public, versioned release of the software and reproducibility package accompanying the manuscript *An executable fail-closed contract for regional eQTL–GWAS integration: a multi-tissue technical evaluation in coronary artery disease and heart failure*.
 
 ## Included verification record

@@ -3,8 +3,13 @@ message: "If you use this software or its reproducibility materials, please cite
 title: "An executable fail-closed contract for regional eQTL–GWAS integration: a multi-tissue technical evaluation in coronary artery disease and heart failure"
 type: software
 version: 0.1.0
-date-released: 2026-09-01
+date-released: 2026-09-02
 license: Apache-2.0
+doi: 10.5281/zenodo.22241027
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.22241027
+    description: "Version 0.1.0 archived release"
 authors:
   - family-names: Tao
     given-names: Zhiyong
