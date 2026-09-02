@@ -1,0 +1,25 @@
+{
+  "schema_version": "2.0",
+  "figure_number": "5",
+  "caption": "Figure 5. Evidence hierarchy. Contract tests, fixed mutations, numerical-oracle checks, stored-artifact traceability, and a synthetic downstream-consumer stress test were completed; external biological validation was not performed.",
+  "figure_contract": "software and synthetic downstream-consumer evidence only; no association, biological, clinical, or comparative-performance claim",
+  "sources": [
+    {
+      "path": "paper\\revision_20260830\\revised_policy_audit\\revised_policy_audit_summary.tsv",
+      "sha256": "3324e9a2a8d3f70011caff09a14e0cec52c74880800be4da9adbde1da8065641"
+    }
+  ],
+  "outputs": {
+    "png": {
+      "path": "paper\\revision_20260831_strengthened\\final_package\\figures/figure_5_revised_evidence_boundary.png",
+      "sha256": "1f9005e4d2322e55ae2f0bf709b07de5a6a3b057b4c997f5bc1aa17ace3f4caa",
+      "dpi": 600
+    },
+    "svg": {
+      "path": "paper\\revision_20260831_strengthened\\final_package\\figures/figure_5_revised_evidence_boundary.svg",
+      "sha256": "02f9043ef5c2b6eb31e168ec6667bdb72b628dbe82b1a5e33ff06e4c0b1b05f4"
+    }
+  },
+  "R": "R version 4.5.2 (2025-10-31 ucrt)",
+  "ggplot2": "4.0.2"
+}

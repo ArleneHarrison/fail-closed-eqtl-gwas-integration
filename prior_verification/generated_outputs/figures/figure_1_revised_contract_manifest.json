@@ -1,0 +1,25 @@
+{
+  "schema_version": "2.0",
+  "figure_number": "1",
+  "caption": "Figure 1. Corrected audit-first interface. READY denotes conformance to the named gate policy only; the gate does not infer model eligibility or a biological result.",
+  "figure_contract": "workflow-only; no association, posterior, biological, clinical, or performance claim",
+  "sources": [
+    {
+      "path": "paper\\revision_20260830\\revised_policy_audit\\revised_policy_audit_summary.tsv",
+      "sha256": "3324e9a2a8d3f70011caff09a14e0cec52c74880800be4da9adbde1da8065641"
+    }
+  ],
+  "outputs": {
+    "png": {
+      "path": "paper\\revision_20260831_strengthened\\final_package\\figures/figure_1_revised_contract.png",
+      "sha256": "5a966f6912b60e2016d626cf05bc443a1138277dbc5ccf7aaf2b191a0ff10c71",
+      "dpi": 600
+    },
+    "svg": {
+      "path": "paper\\revision_20260831_strengthened\\final_package\\figures/figure_1_revised_contract.svg",
+      "sha256": "95beea733104fdd1f74ba22f8dec93e832a7650c53354cc812fe0a5c40c6e16a"
+    }
+  },
+  "R": "R version 4.5.2 (2025-10-31 ucrt)",
+  "ggplot2": "4.0.2"
+}

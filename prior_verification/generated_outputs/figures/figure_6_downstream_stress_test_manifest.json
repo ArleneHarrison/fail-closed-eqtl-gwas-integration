@@ -1,0 +1,27 @@
+{
+  "schema_version": "3.0",
+  "figure_number": "6",
+  "caption": "Figure 6. Downstream-consumer stress test across 100 deterministic replicates per condition. Panels show SuSiE-RSS posterior-inclusion-probability (PIP) drift relative to correct input, PIP assigned to the simulated shared causal variant, and regional PP.H4 from coloc.abf. Summary-order and declared ancestry/LD substitutions are contract-detectable; internally corrupted signs with otherwise self-consistent metadata define an intentionally unprotected boundary.",
+  "figure_contract": "synthetic downstream-consumer sensitivity only; no empirical association, biological, therapeutic, clinical, or superiority claim",
+  "sources": [
+    {
+      "path": "PROJECT_ROOT\\paper\\revision_20260831_strengthened\\downstream_stress\\downstream_stress_test_replicates.tsv",
+      "sha256": "f95ed5f5400176a863ab0f39e19c500f06ef2d13a82be1e86970dc79a27577ce"
+    },
+    {
+      "path": "PROJECT_ROOT\\paper\\revision_20260831_strengthened\\ancestry_ld\\manifest.json",
+      "sha256": "dfc34f6766d6342b1c5d5c69132ad3b0685b9335e0921a2068916f92656c61f2"
+    }
+  ],
+  "outputs": {
+    "png": {
+      "path": "PROJECT_ROOT\\paper\\revision_20260831_strengthened\\final_package\\figures\\figure_6_downstream_stress_test.png",
+      "sha256": "4e4552726c48986fe69de757c066241c01597df24a46542333e9658b3eda30d7",
+      "dpi": 600
+    },
+    "svg": {
+      "path": "PROJECT_ROOT\\paper\\revision_20260831_strengthened\\final_package\\figures\\figure_6_downstream_stress_test.svg",
+      "sha256": "ce75ae512e45d2d88f7b9b8822436dfc27f6b0538ede168d8e0a76384a5c4cf4"
+    }
+  }
+}

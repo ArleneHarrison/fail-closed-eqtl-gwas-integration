@@ -1,0 +1,109 @@
+{
+  "schema_version": "1.0",
+  "protocol_id": "cv_external_validation_20260901_v1",
+  "frozen": true,
+  "frozen_at_utc": "2026-09-01T17:25:56Z",
+  "seed": 20260901,
+  "objective": "Prospectively frozen multi-tissue external technical validation in cardiac and vascular GTEx v8 eQTL data against external CAD and European-ancestry HERMES2 heart-failure GWAS summary statistics.",
+  "tissues": [
+    {"dataset_id": "QTD000131", "label": "GTEx_v8_Artery_Aorta", "class": "vascular"},
+    {"dataset_id": "QTD000136", "label": "GTEx_v8_Artery_Coronary", "class": "vascular"},
+    {"dataset_id": "QTD000251", "label": "GTEx_v8_Heart_Atrial_Appendage", "class": "cardiac"},
+    {"dataset_id": "QTD000256", "label": "GTEx_v8_Heart_Left_Ventricle", "class": "cardiac"}
+  ],
+  "outcomes": [
+    {"outcome_id": "CAD", "dataset_id": "GCST005195", "ancestry": "UNRESOLVED_PRE_RUN_STOP", "trait_type": "cc"},
+    {"outcome_id": "HF", "dataset_id": "HERMES2_EUR_2025", "ancestry": "European", "trait_type": "cc"}
+  ],
+  "region_selection": {
+    "selection_basis": "GWAS_chromosome_position_and_p_value_only",
+    "discovery_outcomes": ["CAD_GCST005195", "HF_HERMES2_EUR_2025"],
+    "n_leads_per_outcome": 12,
+    "p_value_threshold": 5e-8,
+    "greedy_min_distance_bp": 1000000,
+    "window_bp_each_side": 500000,
+    "sort_order": ["p_value_ascending", "chromosome_natural", "position_ascending", "variant_id_lexicographic"],
+    "shortfall_policy": "fail_closed",
+    "expected_disease_regions": 24,
+    "overlap_policy": "retain_as_distinct_outcome_anchored_regions",
+    "forbidden_selection_inputs": ["eQTL", "gate_status", "error_code", "variant_overlap", "LD", "coloc", "SuSiE", "posterior", "biology"]
+  },
+  "gene_selection": {
+    "timing": "after_region_freeze_before_outcome_pairing",
+    "scope": "one_gene_per_region_shared_across_all_four_tissues",
+    "required_nonmissing_fields": ["gene_id", "chromosome", "position", "variant", "ref", "alt", "beta", "se", "n"],
+    "min_complete_rows_per_tissue": 20,
+    "choice_rule": "lexicographically_first_gene_id_among_shared_complete_candidates",
+    "forbidden_value_use": ["beta", "se", "p_value", "LD", "CAD_result", "HF_result", "gate_status", "posterior"],
+    "note": "beta and se may be checked only for presence, never magnitude, sign, rank, or significance",
+    "no_candidate_code": "E_NO_ELIGIBLE_GENE"
+  },
+  "factorial_design": {
+    "region_count": 24,
+    "tissue_count": 4,
+    "outcome_count": 2,
+    "expected_attempts": 192,
+    "unit": "region_x_tissue_x_outcome"
+  },
+  "primary_endpoints": [
+    "gate_status_distribution",
+    "error_code_distribution",
+    "ordered_variant_overlap_count_and_fraction",
+    "LD_dimension_numerical_rank_and_condition_number",
+    "byte_identical_rerun_status_and_diagnostics"
+  ],
+  "secondary_endpoints": [
+    "model_dispatch_fraction_among_all_attempts",
+    "completed_coloc_SuSiE_fraction_among_READY_attempts"
+  ],
+  "gate": {
+    "ready_value": "READY",
+    "ineligible_value": "INELIGIBLE",
+    "max_condition_number": 1000000000000.0,
+    "ld_rank_policy": "diagnostic",
+    "case_fraction_policy": "study_level",
+    "no_repair": true,
+    "no_summary_allele_metadata_or_variant_imputation": true,
+    "ld_missing_genotype_policy": {
+      "primary": "per_variant_mean_dosage_imputation_after_missingness_audit",
+      "maximum_missing_fraction_per_variant": 0.02,
+      "required_sensitivity": "complete_case_sample_LD",
+      "interpretation": "LD genotype handling only; it does not authorize filling any missing summary, allele, metadata, identifier or variant record"
+    },
+    "no_posterior_for_non_READY": true
+  },
+  "downstream": {
+    "allowed_only_if": "gate_status_equals_READY",
+    "methods": ["SuSiE_RSS", "coloc_susie"],
+    "susie_max_iter": 1000,
+    "estimate_residual_variance": false,
+    "ld_model_policy": {
+      "rank_deficiency": "allowed_if_finite_symmetric_unit_diagonal_and_numerically_PSD",
+      "condition_number": "record_including_infinity_not_a_universal_model_stop",
+      "negative_eigenvalue_stop": "below_dimension_scaled_machine_precision_tolerance",
+      "conditioning_or_jitter": "forbidden",
+      "rationale": "With 503 EUR reference samples, regional LD may be structurally rank deficient when variant count exceeds sample rank; rank is therefore a model-policy diagnostic rather than a universal input error."
+    }
+  },
+  "reproducibility": {
+    "fixed_seed": 20260901,
+    "checksum_algorithm": "sha256",
+    "resume_binding": ["protocol_sha256", "input_sha256"],
+    "required_audit_outputs": ["run_configuration.tsv", "trace.tsv", "source_manifest.json", "environment.txt"]
+  },
+  "externality_statement": {
+    "permitted_label": "prospectively_frozen_multi_tissue_external_technical_validation",
+    "forbidden_label": "fully_independent_replication",
+    "development_CAD_comparator_not_in_primary_factorial": "GCST90132314",
+    "primary_external_CAD": "GCST005195",
+    "limitation": "GTEx tissues appeared in earlier exploratory scripts and CAD generations may share participants; this is neither tissue-naive nor guaranteed sample-independent replication."
+  },
+  "pre_run_metadata_locks": {
+    "GCST005195_ancestry": "required_authoritative_value_not_yet_locked",
+    "GCST005195_genome_build": "required_authoritative_value_not_yet_locked",
+    "GCST005195_case_fraction": "required_authoritative_value_not_yet_locked",
+    "HERMES2_EUR_genome_build": "required_authoritative_value_not_yet_locked",
+    "HERMES2_EUR_case_fraction": "required_authoritative_value_not_yet_locked",
+    "policy": "any unresolved field stops the primary run"
+  }
+}

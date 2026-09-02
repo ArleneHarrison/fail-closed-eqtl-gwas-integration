@@ -1,0 +1,10 @@
+Fail-closed regional eQTL–GWAS integration
+Copyright 2026 Zhiyong Tao, Yiwei Zhang, and Guohua Fan
+
+This product includes project-authored software licensed under the Apache
+License, Version 2.0, and project-authored documentation, figures, tables,
+and generated audit data licensed under the Creative Commons Attribution
+4.0 International License. See LICENSE_SCOPE.md for the exact scope.
+
+Third-party GWAS, eQTL, genotype-reference data, and posterior objects are
+not redistributed. References to external resources do not relicense them.

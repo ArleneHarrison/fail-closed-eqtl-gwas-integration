@@ -1,0 +1,28 @@
+{
+  "state": "UNRESOLVED_DO_NOT_RUN",
+  "protocol_canonical_json_sha256": "77dfc730c22acbf29da3825ee739308c6abb20312330f2096a6957aa59f21eb1",
+  "outcomes": {
+    "CAD": {
+      "dataset_id": "GCST005195",
+      "ancestry": null,
+      "genome_build": null,
+      "cases": null,
+      "controls": null,
+      "sample_size": null,
+      "case_fraction": null,
+      "metadata_url": null,
+      "source_citation": null
+    },
+    "HF": {
+      "dataset_id": "HERMES2_EUR_2025",
+      "ancestry": "European",
+      "genome_build": null,
+      "cases": null,
+      "controls": null,
+      "sample_size": null,
+      "case_fraction": null,
+      "metadata_url": null,
+      "source_citation": null
+    }
+  }
+}

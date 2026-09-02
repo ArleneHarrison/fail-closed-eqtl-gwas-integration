@@ -1,0 +1,8 @@
+Evidence component	Observed result	Supported claim	Not supported
+Enumerated software checks	All fixed expectations matched	Named implementation paths execute as specified	Absence of untested defects
+Independent numerical path	R/SVD and gate agreed within tolerance	Rank and condition-number calculations are numerically concordant	External end-to-end workflow validation
+Permutation testing	All diagnostics invariant	Numerical output is invariant to simultaneous relabeling	Correctness under mismatched summary/LD ordering
+Stored artifacts	C2 and 11 windows conformed post hoc	Traceable behavior under one named policy	Prevalence, generalizability, or model eligibility
+Cross-ancestry LD transfer	Five 1000G panels rebuilt for fixed variants	LD-panel differences are measurable	Multi-ancestry eQTL/GWAS replication
+Synthetic downstream consumers	500/500 SuSiE-RSS and coloc.abf runs completed	Selected corruptions can change model output	Biological truth, empirical calibration, or clinical validity
+Content-level sign corruption	Large output drift despite self-consistent metadata	A documented fail-closed boundary	Guaranteed detection of internally false statistics

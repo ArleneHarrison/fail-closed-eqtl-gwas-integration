@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0",
+  "protocol_id": "cv_external_validation_20260901_v1",
+  "frozen_at_utc": "2026-09-01T17:25:56Z",
+  "protocol_path": "config/protocol.json",
+  "protocol_byte_count": 5621,
+  "protocol_file_sha256": "8b6b852432fdb7b5c2a891cb1c51f7d0a456a3b6983692ccef6cbb10363ed48a",
+  "protocol_canonical_json_sha256": "77dfc730c22acbf29da3825ee739308c6abb20312330f2096a6957aa59f21eb1",
+  "state": "READ_ONLY_FROZEN",
+  "amendment_policy": "Never edit protocol.json in place after this manifest. Any change requires a new protocol_id, new timestamp, new hash manifest and explicit deviation record before viewing downstream results.",
+  "results_seen_before_freeze": false
+}

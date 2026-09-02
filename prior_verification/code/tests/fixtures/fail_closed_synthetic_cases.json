@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0",
+  "purpose": "Synthetic, non-scientific integration fixtures. They must never be used as association evidence.",
+  "cases": [
+    {"case_id": "unmapped", "expected_status": "liftover_unmapped"},
+    {"case_id": "one_to_many", "expected_status": "liftover_one_to_many"},
+    {"case_id": "strand", "expected_status": "strand_unresolved"},
+    {"case_id": "indel", "expected_status": "indel_unresolved"},
+    {"case_id": "duplicate", "expected_gate_code": "E_VARIANT_DUPLICATE"},
+    {"case_id": "vcf_absent", "expected_gate_code": "E_VCF_ABSENT"},
+    {"case_id": "ill_conditioned_ld", "expected_gate_code": "E_LD_ILL_CONDITIONED"}
+  ]
+}

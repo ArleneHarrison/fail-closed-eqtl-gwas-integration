@@ -1,0 +1,11 @@
+name,evidence_class,biological_source,covariance_available,source_study
+OneK1K_NK,immune_population,PBMC,false,OneK1K
+Fairfax_monocyte_naive,immune_population,monocyte,true,Fairfax
+Fairfax_monocyte_IFN24,immune_stimulation,monocyte,true,Fairfax
+Fairfax_monocyte_LPS2,immune_stimulation,monocyte,true,Fairfax
+Fairfax_monocyte_LPS24,immune_stimulation,monocyte,true,Fairfax
+Alasoo_macrophage_IFNg,immune_stimulation,macrophage,false,Alasoo
+BLUEPRINT_monocyte_naive,immune_population,monocyte,false,BLUEPRINT
+GTEx_Heart_LV,bulk_tissue,heart_left_ventricle,false,GTEx v8
+GTEx_Whole_Blood,bulk_tissue,whole_blood,false,GTEx v8
+GTEx_Fibroblast,proxy,cultured_fibroblast,false,GTEx v8

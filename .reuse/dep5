@@ -1,0 +1,15 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: fail-closed-eqtl-gwas-integration
+Source: https://github.com/ArleneHarrison/fail-closed-eqtl-gwas-integration
+
+Files: prior_verification/code/* external_validation/code_and_protocol/*
+Copyright: 2026 Zhiyong Tao, Yiwei Zhang, and Guohua Fan
+License: Apache-2.0
+
+Files: *.md *.tsv *.json *.tex *.png *.svg *.txt prior_verification/generated_outputs/* external_validation/audit_and_results/* external_validation/methods_audit/* external_validation/source_audit/*
+Copyright: 2026 Zhiyong Tao, Yiwei Zhang, and Guohua Fan
+License: CC-BY-4.0
+
+Files: LICENSE NOTICE LICENSE_SCOPE.md CITATION.cff .zenodo.json codemeta.json .gitignore .reuse/dep5
+Copyright: 2026 Zhiyong Tao, Yiwei Zhang, and Guohua Fan
+License: Apache-2.0

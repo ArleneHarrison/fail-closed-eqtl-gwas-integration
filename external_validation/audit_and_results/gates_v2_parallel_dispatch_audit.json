@@ -1,0 +1,13 @@
+{
+  "attempts": 192,
+  "attempts_sha256": "189afe236e7c8f7dba60f3a166bff1e29a4240eff99d991ef95065f9e3c1f5df",
+  "gate_script_sha256": "7c49fa48fe8c80c4510497b7f63bbe0ee406722b8398bcaa6f8fe632959432fb",
+  "generated_at_utc": "2026-09-01T19:46:48.494057+00:00",
+  "jobs": 8,
+  "merge_policy": "byte_copy_per_unit_gate_json_in_original_attempt_order",
+  "metadata_lock_sha256": "265bc05c486bbeb75db06311250f8ba85ca269c8bbd946a2bc8984e0db64fc55",
+  "per_worker_blas_threads": 1,
+  "protocol_sha256_file": "37c4731bb407b4d49b3b0ba9876c727720467a9afb17537c983eb4be4d28a52e",
+  "schema_version": "parallel_gate_dispatch_1.0",
+  "status": "PASS"
+}

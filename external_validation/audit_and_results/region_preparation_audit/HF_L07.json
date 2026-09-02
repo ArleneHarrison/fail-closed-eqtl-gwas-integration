@@ -1,0 +1,96 @@
+{
+  "gene": "ENSG00000107290",
+  "gwas": {
+    "CAD": {
+      "exact_duplicates_collapsed": 0,
+      "invalid_rows_excluded": 0,
+      "source_rows": 3510,
+      "valid_unique_keys": 3510
+    },
+    "HF": {
+      "exact_duplicates_collapsed": 0,
+      "invalid_rows_excluded": 0,
+      "source_rows": 4485,
+      "valid_unique_keys": 4485
+    }
+  },
+  "liftover": {
+    "endpoint_status": "PASS_UNIQUE_POSITIVE_STRAND_EXACT_ROUNDTRIP",
+    "source_build": "GRCh37",
+    "source_region": [
+      "9",
+      135641870,
+      136641870
+    ],
+    "target_build": "GRCh38",
+    "target_region": [
+      "9",
+      132766483,
+      133776748
+    ]
+  },
+  "reference": {
+    "decoded_canonical_byte_count": 17234805,
+    "decoded_content_sha256": "031c1753ad16a3b5cac037e639ed4a3a19f0b480e5c0bab4f1bba01e252d975f",
+    "discordant_duplicate_key_audit": [
+      {
+        "alleles": [
+          "A",
+          "AAAAG"
+        ],
+        "code": "E_REFERENCE_KEY_AMBIGUOUS_EXCLUDED",
+        "decision": "key_level_fail_closed_exclusion_no_record_selected",
+        "position": 136174094,
+        "records": [
+          {
+            "AC": [
+              4
+            ],
+            "AF": [
+              0.000798721972387284
+            ],
+            "alt": "AAAAG",
+            "dosage_sha256": "561dc0533eb1201eb4bdc0a0f90a89929c8ab2ba5fd38d82474b18d3cdaec5fb",
+            "ref": "A",
+            "rsid": ""
+          },
+          {
+            "AC": [
+              22
+            ],
+            "AF": [
+              0.004392969887703657
+            ],
+            "alt": "A",
+            "dosage_sha256": "82ea3784a9e9919f76b9e3e38a71bb6854f82a83ceaf1d5a472f7db10f50abd8",
+            "ref": "AAAAG",
+            "rsid": ""
+          }
+        ]
+      }
+    ],
+    "fingerprint_scope": "sorted_position_ref_alt_plus_EUR503_uint8_dosage;255_is_missing;not_remote_BGZF_file_checksum",
+    "index_path": "PROJECT_ROOT/data/ld/remote_index_cache/ALL.chr9.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes.vcf.gz.tbi",
+    "index_sha256": "6d7f97d8c5f21b79b467ae368957516aead136fdc8fd47b09fc3f7c6d927035e",
+    "n_biallelic_records": 33264,
+    "n_discordant_duplicate_keys_excluded": 1,
+    "n_eur_samples": 503,
+    "n_exact_duplicate_keys": 0,
+    "n_interval_overlapping_records_excluded_by_pos": 2,
+    "region": "9:135641870-136641870",
+    "transport": "pysam_htslib_remote_range_fetch_with_certifi_CA",
+    "url": "https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/ALL.chr9.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes.vcf.gz"
+  },
+  "region": {
+    "anchor_outcome": "HF",
+    "chromosome": "9",
+    "lead_p_value": "1.142e-15",
+    "lead_position": "136141870",
+    "lead_variant": "09:136141870:C_T",
+    "region_end": "136641870",
+    "region_id": "HF_L07",
+    "region_start": "135641870",
+    "selection_basis": "GWAS_chromosome_position_and_p_value_only",
+    "selection_rank": "7"
+  }
+}

@@ -1,0 +1,25 @@
+% Requires \usepackage{booktabs,tabularx}.
+\begin{table*}[t]
+\centering
+\caption{Frozen external technical-validation design and observed technical counts.}
+\label{tab:external_validation_summary}
+\begin{tabularx}{\textwidth}{@{}llXr@{}}
+\toprule
+Category & Item & Specification & Count \\
+\midrule
+Resource & eQTL tissues & QTD000131, QTD000136, QTD000251, QTD000256 & 4 \\
+Resource & GWAS outcomes & CAD and HF & 2 \\
+Design & CAD-anchored regions & Frozen GWAS-only anchor selection & 12 \\
+Design & HF-anchored regions & Frozen GWAS-only anchor selection & 12 \\
+Design & Factorial attempts & regions × 4 tissues × 2 outcomes & 192 \\
+Result & Gene-selected regions & Shared four-tissue completeness rule & 24 \\
+Result & Gene-ineligible regions & No eligible shared gene & 0 \\
+Result & Gate READY attempts & All hard contracts passed & 192 \\
+Result & Gate INELIGIBLE attempts & Fail-closed stop & 0 \\
+Result & Missing gate records & No gate record available & 0 \\
+Reproducibility & Exact rerun PASS & Byte and semantic identity & 192 \\
+Reproducibility & Exact rerun FAIL & Byte or semantic mismatch & 0 \\
+Integrity & Non-READY posterior artifacts & Required value: 0 & 0 \\
+\bottomrule
+\end{tabularx}
+\end{table*}

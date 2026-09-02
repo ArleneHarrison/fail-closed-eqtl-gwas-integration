@@ -1,0 +1,25 @@
+{
+  "schema_version": "2.0",
+  "figure_number": "4",
+  "caption": "Figure 4. Post-hoc re-audit under the named study-level case-fraction and diagnostic-rank policies. READY is policy conformance only; the figure is not an eligibility, association, or validation result.",
+  "figure_contract": "workflow-only; no association, posterior, biological, clinical, or performance claim",
+  "sources": [
+    {
+      "path": "paper\\revision_20260830\\revised_policy_audit\\revised_policy_audit_summary.tsv",
+      "sha256": "3324e9a2a8d3f70011caff09a14e0cec52c74880800be4da9adbde1da8065641"
+    }
+  ],
+  "outputs": {
+    "png": {
+      "path": "paper\\revision_20260831_strengthened\\final_package\\figures/figure_4_revised_policy_reaudit.png",
+      "sha256": "23c090bad7787ed5250348a8799347e580e539591adc75dbec5cbac0d89de8bf",
+      "dpi": 600
+    },
+    "svg": {
+      "path": "paper\\revision_20260831_strengthened\\final_package\\figures/figure_4_revised_policy_reaudit.svg",
+      "sha256": "9df4021031997c6b3ab621644a7ed3bb4da1c4c4a60dafccdec3d2827ca40632"
+    }
+  },
+  "R": "R version 4.5.2 (2025-10-31 ucrt)",
+  "ggplot2": "4.0.2"
+}

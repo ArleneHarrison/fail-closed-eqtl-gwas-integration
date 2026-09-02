@@ -1,0 +1,13 @@
+{
+  "assigned_region_rows_including_overlap": 66254,
+  "malformed_coordinate_rows": 0,
+  "scan_count": 1,
+  "signed_sentinel_audit_sha256": "b6b0881ef6ff1c13bb8aafeb8fc3472c100c7982f4e756c7bda68aaf9a281375",
+  "signed_sentinels_verified_against_source": [
+    "rs11806316",
+    "rs60154123",
+    "rs699"
+  ],
+  "source_rows": 7947837,
+  "source_sha256": "ab1f369c8e6a39e9abe6210ed9f3be44899f00064536a9ee5a773838a4bf266a"
+}

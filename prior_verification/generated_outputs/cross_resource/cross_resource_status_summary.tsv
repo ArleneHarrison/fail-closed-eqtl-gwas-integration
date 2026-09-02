@@ -1,0 +1,7 @@
+gwas	resource_family	status	cases
+CAD	Fairfax	completed	1
+CAD	Fairfax	failed	1
+CAD	GTEx	completed	1
+CAD	OneK1K	completed	1
+HF	Fairfax	ineligible	1
+HF	GTEx	completed_no_comparable_credible_sets	3

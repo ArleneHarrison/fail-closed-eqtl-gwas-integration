@@ -1,0 +1,24 @@
+{
+  "analysis_type": "cross-ancestry LD-panel portability benchmark",
+  "claim_boundary": "This benchmark compares LD references for the same fixed regional variants; it is not multi-ancestry eQTL or GWAS association validation.",
+  "region": "11:2040128-2121017",
+  "reference": "1000 Genomes Project Phase 3 GRCh37",
+  "populations": [
+    "EUR",
+    "AFR",
+    "EAS",
+    "SAS",
+    "AMR"
+  ],
+  "reference_population": "EUR",
+  "maf_threshold": 0.01,
+  "requested_unique_variants": 234,
+  "common_before_deterministic_thinning": 119,
+  "common_used_for_transfer_and_downstream_stress_test": 100,
+  "deterministic_selection": "evenly spaced indices in harmonized coordinate order",
+  "inputs": {
+    "harmonized_sha256": "b6affae155f7866e2ba78c07e330ec324e4ffe189cbdb76c2fbc9aec371f39ba",
+    "panel_sha256": "b4023dc6ee2d62ee89c8d4d347db4d348e65518d66d346574cdae7a4bbd76858",
+    "vcf_sha256": "64b9f63f6d3b5056f60cb297016d9da169e0668083620e4819c934259cd5b6d1"
+  }
+}

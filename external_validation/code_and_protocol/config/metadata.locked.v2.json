@@ -1,0 +1,29 @@
+{
+  "state": "LOCKED",
+  "locked_at_utc": "2026-09-01T17:33:29Z",
+  "protocol_canonical_json_sha256": "ec619b392221037bf63628919b22bba0b45d9f1c0ccd720b9ec52531e0bf0ba6",
+  "outcomes": {
+    "CAD": {
+      "dataset_id": "GCST005195",
+      "ancestry": "European UK Biobank subset",
+      "genome_build": "GRCh37/hg19",
+      "cases": 34541,
+      "controls": 261984,
+      "sample_size": 296525,
+      "case_fraction": 0.116485962397774,
+      "metadata_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST005001-GCST006000/GCST005195/CAD_META.readme.txt",
+      "source_citation": "GWAS Catalog GCST005195 and accompanying CAD_META.readme.txt"
+    },
+    "HF": {
+      "dataset_id": "HERMES2_EUR_2025",
+      "ancestry": "European",
+      "genome_build": "GRCh37",
+      "cases": 139533,
+      "controls": 1568809,
+      "sample_size": 1708342,
+      "case_fraction": 0.0816774392949421,
+      "metadata_url": "https://ora.ox.ac.uk/objects/uuid%3A59e62be1-d00d-46ab-8d3e-b70345b38501/files/r08612q18t",
+      "source_citation": "HERMES2 official Supplementary Table 2, overall heart failure Pheno1 European subset"
+    }
+  }
+}

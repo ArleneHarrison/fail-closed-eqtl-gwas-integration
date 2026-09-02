@@ -1,0 +1,3 @@
+outcome_id	unit_rows	eqtl_n_min	eqtl_n_median	eqtl_n_max	gwas_n_min	gwas_n_median	gwas_n_max	gwas_cases_min	gwas_cases_median	gwas_cases_max	row_case_fraction_min	row_case_fraction_median	row_case_fraction_max
+CAD	181656	200	381	387	296525	296525	296525	34541	34541	34541	0.1164859623977742	0.1164859623977742	0.1164859623977742
+HF	207666	197	381	387	60286	1631460	1685710	12629	122599	132176	0.0307541325332891	0.076006695010506706	0.25803669176923327

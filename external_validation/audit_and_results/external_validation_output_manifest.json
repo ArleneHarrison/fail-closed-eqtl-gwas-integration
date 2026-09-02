@@ -1,0 +1,43 @@
+{
+  "schema_version": "external_validation_figure_1.0",
+  "data_origin": "REAL_RUNNER_OUTPUT",
+  "input_sha256": {
+    "summary": "10ec3f2bf38bc333445db0a9b0d93971beb6096454668459b6daba0cb5526416",
+    "rerun": "6afb9bf32a8bd50150ab155a0d2e528d86f58990e1a829a87f6c54c3d1988aea",
+    "regions": "9c6aff019ffcd0d081a78f461760c8d014281435494b4052f2b10e5a7f9d87e9",
+    "genes": "04aca2a59dadba7e6858f14fec92bbd2b31afb6ec5c41597c9ce8ab29c85939f"
+  },
+  "output_sha256": {
+    "external_validation_alt_text.txt": "777d161fb7468d12dd604061b76d39264c29c700a7cf66ddd3b7d637d993d071",
+    "external_validation_figure_derived_data.tsv": "dac3bf81c92bf5cf3b9ac9a67e70146da961b5059b69f1638286567561b920fe",
+    "external_validation_main_figure.pdf": "de11364af3c76b601c88e455dc3ce790acbc142aec68675f83403caf4fce30ce",
+    "external_validation_main_figure.png": "a4bf3a4c169e846bc57f733b7b0f1f31d53e1a6b8a8be81809375c0067231f67",
+    "external_validation_main_figure.svg": "3eb98ba4d7b78480c934f44e452251d4108c0762a6a6b4a1a952109753cae6e0",
+    "external_validation_summary_table.tex": "fc37645837f4b37d93874da92615e0eb55fb734b945b6c0d5e69c00335c47358",
+    "external_validation_summary_table.tsv": "1e803eea46c6e6dfc8722589be021f2f0c2a1b16a1c265ecabfb2c73eb8f78d3"
+  },
+  "png_metadata": {
+    "width": 4110,
+    "height": 3543,
+    "dpi": [
+      599.9988,
+      599.9988
+    ]
+  },
+  "figure_width_mm": 174,
+  "figure_height_mm": 150,
+  "png_export_dpi": 600,
+  "transformations": [
+    "counts grouped directly from input records",
+    "READY proportions are READY count divided by observed factorial cell total",
+    "LD rank fraction is numerical rank divided by LD dimension",
+    "records without complete overlap/rank diagnostics remain explicitly counted as incomplete"
+  ],
+  "software": {
+    "python": "3.12.10",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "matplotlib": "3.10.9",
+    "numpy": "2.3.5",
+    "pandas": "2.3.3"
+  }
+}

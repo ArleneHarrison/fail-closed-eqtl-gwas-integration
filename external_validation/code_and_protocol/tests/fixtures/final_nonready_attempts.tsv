@@ -1,0 +1,2 @@
+unit_id	region_id	anchor_outcome	tissue_id	outcome_id	gene_id	pre_gate_status	pre_gate_code	n_overlap
+NONREADY_FINAL_PROBE	CAD_L01	CAD	QTD000131	CAD	ENSG00000099810	INELIGIBLE	E_TEST_NONREADY	0

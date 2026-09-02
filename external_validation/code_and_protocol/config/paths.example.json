@@ -1,0 +1,17 @@
+{
+  "data_dir": "data/external_validation_20260901",
+  "work_dir": "work/external_validation_20260901",
+  "output_dir": "outputs/external_validation_20260901",
+  "eqtl_files": {
+    "QTD000131": "data/external_validation_20260901/QTD000131.all.tsv.gz",
+    "QTD000136": "data/external_validation_20260901/QTD000136.all.tsv.gz",
+    "QTD000251": "data/external_validation_20260901/QTD000251.all.tsv.gz",
+    "QTD000256": "data/external_validation_20260901/QTD000256.all.tsv.gz"
+  },
+  "gwas_files": {
+    "CAD": "data/external_validation_20260901/GCST005195_CAD_UKBIOBANK.gz",
+    "HF": "data/external_validation_20260901/HERMES2_EUR_2025.tsv.gz"
+  },
+  "development_comparator_CAD": "resources/development_only/GCST90132314.tsv.gz",
+  "ld_reference_dir": "resources/1000G_phase3_EUR_GRCh37"
+}

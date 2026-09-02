@@ -1,0 +1,55 @@
+{
+  "actions": [],
+  "case_fraction_policy": "study_level",
+  "decision_scope": "declared_gate_policy_conformance_only",
+  "failures": [],
+  "gate_ready_for_dispatch": true,
+  "ld_diagnostics": {
+    "condition_number_2": null,
+    "condition_number_is_infinite": true,
+    "condition_number_threshold_applied": false,
+    "diagonal_max_abs_error_from_one": 2.220446049250313e-16,
+    "finite": true,
+    "max_condition_number": 1000000000000.0,
+    "max_eigenvalue": 354.85142116063673,
+    "min_eigenvalue": -4.0033286039503633e-13,
+    "n_variants": 2891,
+    "numerical_rank": 502,
+    "positive_semidefinite": true,
+    "psd_tolerance": 2.2779011090166018e-10,
+    "rank_deficient": true,
+    "rank_policy": "diagnostic",
+    "rank_tolerance": 2.2779011090166018e-10,
+    "smallest_absolute_eigenvalue": 1.7511063324971494e-18,
+    "symmetric_max_abs_error": 2.220446049250313e-16
+  },
+  "model_eligibility": null,
+  "n_ld_variant_ids": 2891,
+  "n_summary_rows": 2891,
+  "overlap_diagnostics": {
+    "eqtl_mapped_outside_source_window": 0,
+    "eqtl_strict_liftover_failures": 0,
+    "n_eqtl_variants_pre": 3556,
+    "n_gwas_variants_pre": 3509,
+    "n_ld_variants_pre": 34601,
+    "n_matched_discordant_reference_keys": 0,
+    "n_ordered_overlap": 2891,
+    "n_reference_ambiguous_keys_in_region": 1,
+    "n_three_way_key_overlap_before_LD_missingness": 2891,
+    "ordered_variant_sha256": "d383ed846f2bc8b6d93f6927c70799f440d20efffb98598eff00d743ec50f235",
+    "preparation_code": "OK",
+    "reference_ambiguous_key_policy_code": "OK_NO_MATCHED_AMBIGUOUS_KEY"
+  },
+  "prepared_input_sha256": {
+    "ld.npz": "12456f34fea1fbca9ad922c35177dfe5e1e32e5fa58e421a45ad103031490a44",
+    "overlap.json": "b390cd3a4d21269fa4615b3a2d25f9e669b8fed77f3c2808e6ab59122d1c51ef",
+    "provenance.json": "af55f38e2bcfec5c171e24193f09d9c21f3832c71ccc69339461f450a2446222",
+    "summary.csv": "c71b38ebc8d34eab7fcbeaf827c737e89841643b8c0057ed3bcaa3a128acae54"
+  },
+  "protocol_sha256": "ec619b392221037bf63628919b22bba0b45d9f1c0ccd720b9ec52531e0bf0ba6",
+  "schema_version": "1.2",
+  "status": "READY",
+  "status_codes": [
+    "OK"
+  ]
+}

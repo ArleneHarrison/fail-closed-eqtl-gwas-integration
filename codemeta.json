@@ -1,0 +1,45 @@
+{
+  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+  "@type": "SoftwareSourceCode",
+  "name": "Fail-closed regional eQTL–GWAS integration",
+  "description": "An executable and auditable fail-closed contract for regional eQTL–GWAS integration with synthetic verification and a multi-tissue cardiovascular technical evaluation.",
+  "version": "0.1.0",
+  "datePublished": "2026-09-01",
+  "codeRepository": "https://github.com/ArleneHarrison/fail-closed-eqtl-gwas-integration",
+  "license": "https://spdx.org/licenses/Apache-2.0",
+  "programmingLanguage": ["Python", "R", "Shell"],
+  "applicationCategory": "Bioinformatics",
+  "keywords": [
+    "eQTL",
+    "GWAS",
+    "linkage disequilibrium",
+    "reproducibility",
+    "quality control",
+    "statistical genetics"
+  ],
+  "author": [
+    {
+      "@type": "Person",
+      "givenName": "Zhiyong",
+      "familyName": "Tao",
+      "@id": "https://orcid.org/0009-0001-2454-2432",
+      "affiliation": "Department of Cardiology, Renmin Hospital of Wuhan University"
+    },
+    {
+      "@type": "Person",
+      "givenName": "Yiwei",
+      "familyName": "Zhang",
+      "@id": "https://orcid.org/0009-0008-7513-7956",
+      "affiliation": "Department of Cardiology, Renmin Hospital of Wuhan University"
+    },
+    {
+      "@type": "Person",
+      "givenName": "Guohua",
+      "familyName": "Fan",
+      "@id": "https://orcid.org/0009-0005-7470-7863",
+      "affiliation": "Department of Cardiology, Renmin Hospital of Wuhan University"
+    }
+  ],
+  "developmentStatus": "active",
+  "isAccessibleForFree": true
+}

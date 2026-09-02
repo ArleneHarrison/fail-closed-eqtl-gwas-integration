@@ -1,0 +1,25 @@
+{
+  "schema_version": "2.0",
+  "figure_number": "3",
+  "caption": "Figure 3. Numerical rank versus LD dimension in the stored additional-coordinate and transfer artifacts. All matrices are rank deficient. The 11 transfer matrices exceed the 503-person reference dimension and have a centered rank ceiling of 502; C2 contains 225 variants, so its empirical deficiency requires a separate construction-level explanation.",
+  "figure_contract": "workflow-only numerical diagnostic; no association, posterior, biological, clinical, or performance claim",
+  "sources": [
+    {
+      "path": "paper\\revision_20260830\\revised_policy_audit\\revised_policy_audit_summary.tsv",
+      "sha256": "3324e9a2a8d3f70011caff09a14e0cec52c74880800be4da9adbde1da8065641"
+    }
+  ],
+  "outputs": {
+    "png": {
+      "path": "paper\\revision_20260831_strengthened\\final_package\\figures/figure_3_revised_rank.png",
+      "sha256": "0c0310841980e6e1d3151d985422e67bb3c12acc4678c6a7f03f707e929274c7",
+      "dpi": 600
+    },
+    "svg": {
+      "path": "paper\\revision_20260831_strengthened\\final_package\\figures/figure_3_revised_rank.svg",
+      "sha256": "c7624f1052215a57ca690e59a1aa47b963d490a880a550e87bd9b7492d397e93"
+    }
+  },
+  "R": "R version 4.5.2 (2025-10-31 ucrt)",
+  "ggplot2": "4.0.2"
+}

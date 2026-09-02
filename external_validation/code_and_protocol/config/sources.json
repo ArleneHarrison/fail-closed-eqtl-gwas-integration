@@ -1,0 +1,72 @@
+[
+  {
+    "label": "GTEx_v8_QTD000131",
+    "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000015/QTD000131/QTD000131.all.tsv.gz",
+    "version_or_build": "GTEx_v8_eQTL_Catalogue_GRCh38",
+    "license_or_access": "public_aggregate_summary_statistics; verify source terms at retrieval",
+    "retrieval_date": null,
+    "sha256": null,
+    "byte_count": null,
+    "structural_check": "gzip_test_and_tabix_or_header_check"
+  },
+  {
+    "label": "GTEx_v8_QTD000136",
+    "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000015/QTD000136/QTD000136.all.tsv.gz",
+    "version_or_build": "GTEx_v8_eQTL_Catalogue_GRCh38",
+    "license_or_access": "public_aggregate_summary_statistics; verify source terms at retrieval",
+    "retrieval_date": null,
+    "sha256": null,
+    "byte_count": null,
+    "structural_check": "gzip_test_and_tabix_or_header_check"
+  },
+  {
+    "label": "GTEx_v8_QTD000251",
+    "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000015/QTD000251/QTD000251.all.tsv.gz",
+    "version_or_build": "GTEx_v8_eQTL_Catalogue_GRCh38",
+    "license_or_access": "public_aggregate_summary_statistics; verify source terms at retrieval",
+    "retrieval_date": null,
+    "sha256": null,
+    "byte_count": null,
+    "structural_check": "gzip_test_and_tabix_or_header_check"
+  },
+  {
+    "label": "GTEx_v8_QTD000256",
+    "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000015/QTD000256/QTD000256.all.tsv.gz",
+    "version_or_build": "GTEx_v8_eQTL_Catalogue_GRCh38",
+    "license_or_access": "public_aggregate_summary_statistics; verify source terms at retrieval",
+    "retrieval_date": null,
+    "sha256": null,
+    "byte_count": null,
+    "structural_check": "gzip_test_and_tabix_or_header_check"
+  },
+  {
+    "label": "CAD_GCST005195",
+    "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST005001-GCST006000/GCST005195/CAD_UKBIOBANK.gz",
+    "version_or_build": "GCST005195_2017_CAD_UKBIOBANK; freeze exact CAD_UKBIOBANK.gz metadata and genome build before analysis",
+    "license_or_access": "GWAS_Catalog_public_summary_statistics; verify study terms at retrieval",
+    "retrieval_date": null,
+    "sha256": null,
+    "byte_count": null,
+    "structural_check": "decompression_and_required_column_check"
+  },
+  {
+    "label": "HF_HERMES2_EUR_2025",
+    "url": "https://api.kpndatregistry.org/api/d/6eJqWn",
+    "version_or_build": "HERMES2_2025_European_subset; freeze exact downloaded file and build metadata before analysis",
+    "license_or_access": "public_download_link; record portal terms and original study citation",
+    "retrieval_date": null,
+    "sha256": null,
+    "byte_count": null,
+    "structural_check": "decompression_and_required_column_check"
+  },
+  {
+    "label": "1000G_phase3_EUR",
+    "url": "https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/",
+    "version_or_build": "phase3_shapeit2_mvncall_integrated_v5b_GRCh37_EUR_503_samples",
+    "license_or_access": "public_reference_panel",
+    "retrieval_date": null,
+    "sha256": null,
+    "byte_count": null,
+    "structural_check": "vcf_gzip_tabix_sample_and_contig_audit"
+  }
+]

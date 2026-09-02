@@ -1,0 +1,96 @@
+{
+  "gene": "ENSG00000142166",
+  "gwas": {
+    "CAD": {
+      "exact_duplicates_collapsed": 0,
+      "invalid_rows_excluded": 0,
+      "source_rows": 2870,
+      "valid_unique_keys": 2870
+    },
+    "HF": {
+      "exact_duplicates_collapsed": 0,
+      "invalid_rows_excluded": 0,
+      "source_rows": 3254,
+      "valid_unique_keys": 3254
+    }
+  },
+  "liftover": {
+    "endpoint_status": "PASS_UNIQUE_POSITIVE_STRAND_EXACT_ROUNDTRIP",
+    "source_build": "GRCh37",
+    "source_region": [
+      "21",
+      35093827,
+      36093827
+    ],
+    "target_build": "GRCh38",
+    "target_region": [
+      "21",
+      33721522,
+      34721529
+    ]
+  },
+  "reference": {
+    "decoded_canonical_byte_count": 15503166,
+    "decoded_content_sha256": "88ed61061261335162d45527e73353c41d153a00a204745ed177bb5de62b2ddf",
+    "discordant_duplicate_key_audit": [
+      {
+        "alleles": [
+          "A",
+          "AGTGT"
+        ],
+        "code": "E_REFERENCE_KEY_AMBIGUOUS_EXCLUDED",
+        "decision": "key_level_fail_closed_exclusion_no_record_selected",
+        "position": 36038270,
+        "records": [
+          {
+            "AC": [
+              347
+            ],
+            "AF": [
+              0.06928910315036774
+            ],
+            "alt": "AGTGT",
+            "dosage_sha256": "555e75e7544d243aecbcb9947065160988704a136207584d5492ee43aede49ca",
+            "ref": "A",
+            "rsid": ""
+          },
+          {
+            "AC": [
+              88
+            ],
+            "AF": [
+              0.01757190003991127
+            ],
+            "alt": "A",
+            "dosage_sha256": "cd1c928075bbff71d51101c428ce0b2f72381435ef143148ca7b37afb91a6de9",
+            "ref": "AGTGT",
+            "rsid": ""
+          }
+        ]
+      }
+    ],
+    "fingerprint_scope": "sorted_position_ref_alt_plus_EUR503_uint8_dosage;255_is_missing;not_remote_BGZF_file_checksum",
+    "index_path": "PROJECT_ROOT/data/ld/remote_index_cache/ALL.chr21.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes.vcf.gz.tbi",
+    "index_sha256": "e87a55de3db734add587258c23f228bdc042323e2daf09ac4b7d18480b8de3a0",
+    "n_biallelic_records": 29981,
+    "n_discordant_duplicate_keys_excluded": 1,
+    "n_eur_samples": 503,
+    "n_exact_duplicate_keys": 0,
+    "n_interval_overlapping_records_excluded_by_pos": 0,
+    "region": "21:35093827-36093827",
+    "transport": "pysam_htslib_remote_range_fetch_with_certifi_CA",
+    "url": "https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/ALL.chr21.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes.vcf.gz"
+  },
+  "region": {
+    "anchor_outcome": "CAD",
+    "chromosome": "21",
+    "lead_p_value": "2.7e-20",
+    "lead_position": "35593827",
+    "lead_variant": "21:35593827_A_G",
+    "region_end": "36093827",
+    "region_id": "CAD_L08",
+    "region_start": "35093827",
+    "selection_basis": "GWAS_chromosome_position_and_p_value_only",
+    "selection_rank": "8"
+  }
+}

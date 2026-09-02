@@ -1,0 +1,60 @@
+{
+  "gene": "ENSG00000001629",
+  "gwas": {
+    "CAD": {
+      "exact_duplicates_collapsed": 0,
+      "invalid_rows_excluded": 0,
+      "source_rows": 1888,
+      "valid_unique_keys": 1888
+    },
+    "HF": {
+      "exact_duplicates_collapsed": 0,
+      "invalid_rows_excluded": 0,
+      "source_rows": 2377,
+      "valid_unique_keys": 2377
+    }
+  },
+  "liftover": {
+    "endpoint_status": "PASS_UNIQUE_POSITIVE_STRAND_EXACT_ROUNDTRIP",
+    "source_build": "GRCh37",
+    "source_region": [
+      "7",
+      91785123,
+      92785123
+    ],
+    "target_build": "GRCh38",
+    "target_region": [
+      "7",
+      92155809,
+      93155810
+    ]
+  },
+  "reference": {
+    "decoded_canonical_byte_count": 12971218,
+    "decoded_content_sha256": "de611fede1af201ef83512712c13b6580be3eac0a335fd6d6758ed16221650cf",
+    "discordant_duplicate_key_audit": [],
+    "fingerprint_scope": "sorted_position_ref_alt_plus_EUR503_uint8_dosage;255_is_missing;not_remote_BGZF_file_checksum",
+    "index_path": "PROJECT_ROOT/data/ld/remote_index_cache/ALL.chr7.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes.vcf.gz.tbi",
+    "index_sha256": "9bb1ee9423f293241d86f8b8e76f80e3f42c8deb5c3ffa7ad7fc495024baeb44",
+    "n_biallelic_records": 25084,
+    "n_discordant_duplicate_keys_excluded": 0,
+    "n_eur_samples": 503,
+    "n_exact_duplicate_keys": 0,
+    "n_interval_overlapping_records_excluded_by_pos": 0,
+    "region": "7:91785123-92785123",
+    "transport": "pysam_htslib_remote_range_fetch_with_certifi_CA",
+    "url": "https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/ALL.chr7.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes.vcf.gz"
+  },
+  "region": {
+    "anchor_outcome": "HF",
+    "chromosome": "7",
+    "lead_p_value": "4.093e-13",
+    "lead_position": "92285123",
+    "lead_variant": "07:092285123:A_G",
+    "region_end": "92785123",
+    "region_id": "HF_L08",
+    "region_start": "91785123",
+    "selection_basis": "GWAS_chromosome_position_and_p_value_only",
+    "selection_rank": "8"
+  }
+}

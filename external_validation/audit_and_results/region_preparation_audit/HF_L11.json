@@ -1,0 +1,166 @@
+{
+  "gene": "ENSG00000107581",
+  "gwas": {
+    "CAD": {
+      "exact_duplicates_collapsed": 0,
+      "invalid_rows_excluded": 0,
+      "source_rows": 3117,
+      "valid_unique_keys": 3117
+    },
+    "HF": {
+      "exact_duplicates_collapsed": 0,
+      "invalid_rows_excluded": 0,
+      "source_rows": 3732,
+      "valid_unique_keys": 3732
+    }
+  },
+  "liftover": {
+    "endpoint_status": "PASS_UNIQUE_POSITIVE_STRAND_EXACT_ROUNDTRIP",
+    "source_build": "GRCh37",
+    "source_region": [
+      "10",
+      120915685,
+      121915685
+    ],
+    "target_build": "GRCh38",
+    "target_region": [
+      "10",
+      119156173,
+      120156173
+    ]
+  },
+  "reference": {
+    "decoded_canonical_byte_count": 15702759,
+    "decoded_content_sha256": "8e5b857a852cbb0e94a0c4291083425b500cf4d0152f585365dbdb4baad9774d",
+    "discordant_duplicate_key_audit": [
+      {
+        "alleles": [
+          "G",
+          "GTTTTA"
+        ],
+        "code": "E_REFERENCE_KEY_AMBIGUOUS_EXCLUDED",
+        "decision": "key_level_fail_closed_exclusion_no_record_selected",
+        "position": 121144764,
+        "records": [
+          {
+            "AC": [
+              31
+            ],
+            "AF": [
+              0.006190100219100714
+            ],
+            "alt": "GTTTTA",
+            "dosage_sha256": "561dc0533eb1201eb4bdc0a0f90a89929c8ab2ba5fd38d82474b18d3cdaec5fb",
+            "ref": "G",
+            "rsid": ""
+          },
+          {
+            "AC": [
+              1027
+            ],
+            "AF": [
+              0.20507200062274933
+            ],
+            "alt": "G",
+            "dosage_sha256": "944e0d16116786e9b5c59ac3f4b1d261de3a81827715a035db331c67eda8a2db",
+            "ref": "GTTTTA",
+            "rsid": ""
+          }
+        ]
+      },
+      {
+        "alleles": [
+          "A",
+          "AAAAAC"
+        ],
+        "code": "E_REFERENCE_KEY_AMBIGUOUS_EXCLUDED",
+        "decision": "key_level_fail_closed_exclusion_no_record_selected",
+        "position": 121338852,
+        "records": [
+          {
+            "AC": [
+              24
+            ],
+            "AF": [
+              0.004792329855263233
+            ],
+            "alt": "AAAAAC",
+            "dosage_sha256": "561dc0533eb1201eb4bdc0a0f90a89929c8ab2ba5fd38d82474b18d3cdaec5fb",
+            "ref": "A",
+            "rsid": ""
+          },
+          {
+            "AC": [
+              21
+            ],
+            "AF": [
+              0.004193290136754513
+            ],
+            "alt": "A",
+            "dosage_sha256": "561dc0533eb1201eb4bdc0a0f90a89929c8ab2ba5fd38d82474b18d3cdaec5fb",
+            "ref": "AAAAAC",
+            "rsid": ""
+          }
+        ]
+      },
+      {
+        "alleles": [
+          "A",
+          "AAAAG"
+        ],
+        "code": "E_REFERENCE_KEY_AMBIGUOUS_EXCLUDED",
+        "decision": "key_level_fail_closed_exclusion_no_record_selected",
+        "position": 121420777,
+        "records": [
+          {
+            "AC": [
+              9
+            ],
+            "AF": [
+              0.001797119970433414
+            ],
+            "alt": "AAAAG",
+            "dosage_sha256": "561dc0533eb1201eb4bdc0a0f90a89929c8ab2ba5fd38d82474b18d3cdaec5fb",
+            "ref": "A",
+            "rsid": ""
+          },
+          {
+            "AC": [
+              22
+            ],
+            "AF": [
+              0.004392969887703657
+            ],
+            "alt": "A",
+            "dosage_sha256": "6de3596b9c00ee32eb02281aa522d47c4ccd6d5816cfb9ddf953616607b593d4",
+            "ref": "AAAAG",
+            "rsid": ""
+          }
+        ]
+      }
+    ],
+    "fingerprint_scope": "sorted_position_ref_alt_plus_EUR503_uint8_dosage;255_is_missing;not_remote_BGZF_file_checksum",
+    "index_path": "PROJECT_ROOT/data/ld/remote_index_cache/ALL.chr10.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes.vcf.gz.tbi",
+    "index_sha256": "3ef8aa430d5552c2a43cffaa47a1d33f3542dafa41c281c9ee5cdbf416821d96",
+    "n_biallelic_records": 30306,
+    "n_discordant_duplicate_keys_excluded": 3,
+    "n_eur_samples": 503,
+    "n_exact_duplicate_keys": 0,
+    "n_interval_overlapping_records_excluded_by_pos": 0,
+    "region": "10:120915685-121915685",
+    "transport": "pysam_htslib_remote_range_fetch_with_certifi_CA",
+    "url": "https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/ALL.chr10.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes.vcf.gz"
+  },
+  "region": {
+    "anchor_outcome": "HF",
+    "chromosome": "10",
+    "lead_p_value": "1.449e-12",
+    "lead_position": "121415685",
+    "lead_variant": "10:121415685:A_G",
+    "region_end": "121915685",
+    "region_id": "HF_L11",
+    "region_start": "120915685",
+    "selection_basis": "GWAS_chromosome_position_and_p_value_only",
+    "selection_rank": "11"
+  }
+}

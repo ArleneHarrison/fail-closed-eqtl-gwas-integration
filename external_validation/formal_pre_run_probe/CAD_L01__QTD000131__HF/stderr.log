@@ -1,0 +1,11 @@
+running max iterations: 1000
+WARNING: XtX is not symmetric; forcing XtX to be symmetric by replacing XtX with (XtX + t(XtX))/2
+	converged: TRUE
+running max iterations: 1000
+WARNING: XtX is not symmetric; forcing XtX to be symmetric by replacing XtX with (XtX + t(XtX))/2
+	converged: FALSE
+Warning message:
+In susie_suff_stat(XtX = XtX, Xty = Xty, n = n, yty = (n - 1) *  :
+  IBSS algorithm did not converge in 1000 iterations!
+                  Please check consistency between summary statistics and LD matrix.
+                  See https://stephenslab.github.io/susieR/articles/susierss_diagnostic.html

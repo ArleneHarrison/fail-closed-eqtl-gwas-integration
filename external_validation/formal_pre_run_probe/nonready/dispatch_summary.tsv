@@ -1,0 +1,2 @@
+unit_id	status	stable_code	model_invoked	elapsed_seconds	max_rss_kb	binding_sha256	run_directory	resume_action	reason
+NONREADY_FINAL_PROBE	REJECTED	E_GATE_NOT_READY	False						non-READY units are refused and cannot create a posterior artifact

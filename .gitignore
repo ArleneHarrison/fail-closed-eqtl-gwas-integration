@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# R
+.Rhistory
+.RData
+.Ruserdata
+renv/library/
+
+# Local environments and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*
+secrets*
+
+# Editors and operating systems
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Third-party source data and large derived model objects
+*.vcf
+*.vcf.gz
+*.bcf
+*.bgen
+*.bed
+*.bim
+*.fam
+*.pgen
+*.pvar
+*.psam
+*.rds
+*.RData
+*.rda
+data/raw/
+work/
+prepared/
+outputs/models/
+outputs/models_locked/

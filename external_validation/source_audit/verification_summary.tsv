@@ -1,0 +1,11 @@
+check	status	evidence
+four_GTEx_full_files	PASS	Sizes match official Content-Length values; all four gzip streams passed.
+four_GTEx_official_tabix_indexes	PASS	Each index lists 23 contigs and returns rows for 1:13550-13550.
+HERMES2_EUR_outer_archive	PASS	Observed 1,569,449,258 bytes; outer and inner ZIP CRC tests passed.
+HERMES2_four_summary_members	PASS	All four embedded MD5 checks matched.
+HERMES2_Pheno1_primary	PASS	GRCh37/b37/hg19, 15 documented columns, gzip and tabix query passed.
+GCST005195	PASS_WITH_METADATA_NOTE	Official gzip passed; 7,947,837 data rows versus Catalog API snpCount 7,947,838.
+1000G_EUR_panel	PASS	Exactly 503 EUR samples.
+1000G_remote_autosomes	PASS	All 22 VCF URLs returned HTTP 206 for a one-byte range; all 22 official indexes were cached and hashed.
+signed_URL_exclusion	PASS	Only stable public source URLs appear in permanent manifests.
+durable_storage	BLOCKED_STORAGE_QUOTA	New HF and GCST005195 files are currently under /tmp and symlinked into the project.

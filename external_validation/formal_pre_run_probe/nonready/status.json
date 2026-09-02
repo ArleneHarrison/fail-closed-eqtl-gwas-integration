@@ -1,0 +1,8 @@
+{
+  "gate_sha256": "c8c470f03d4bc39e8ce39e47ec678a7ca0554bf221197b02dcdc0ede69970786",
+  "model_invoked": false,
+  "reason": "non-READY units are refused and cannot create a posterior artifact",
+  "stable_code": "E_GATE_NOT_READY",
+  "status": "REJECTED",
+  "unit_id": "NONREADY_FINAL_PROBE"
+}

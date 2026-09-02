@@ -1,0 +1,18 @@
+{
+  "ambiguous_key_unit_intersections": 0,
+  "attempts": 192,
+  "failures": [],
+  "genes": 24,
+  "reference_ambiguous_keys_quarantined": 18,
+  "regions": 24,
+  "status": "GREEN",
+  "summary_rows_by_outcome": {
+    "CAD": 181656,
+    "HF": 207666
+  },
+  "total_summary_rows": 389322,
+  "unique_complete_case_LD_files": 188,
+  "unique_primary_LD_files": 188,
+  "units": 192,
+  "zero_overlap_units": 0
+}

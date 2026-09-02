@@ -1,0 +1,40 @@
+{
+  "manuscript_title": "An executable fail-closed contract for reliable regional eQTL-GWAS integration in cardiovascular genomics",
+  "scope_boundaries": {
+    "biological_association": false,
+    "causal_inference": false,
+    "clinical_utility": false,
+    "comparative_superiority": false,
+    "real_data_role": "workflow-behavior demonstration"
+  },
+  "validation_counts": {
+    "automated_tests": 93,
+    "fault_injection_expected_codes": "2500/2500",
+    "numerical_matrices": 80,
+    "full_rank_condition_numbers": 64,
+    "permutation_matrices": 75,
+    "downstream_replicate_rows": 500,
+    "ancestry_panels": 5,
+    "archived_cases": 8
+  },
+  "ld_policy": {
+    "ill_conditioned_code": "E_LD_ILL_CONDITIONED",
+    "matrix_action": "do not repair the matrix"
+  },
+  "verified_dois": [
+    "10.1038/s41588-021-00924-w",
+    "10.1371/journal.pgen.1004383",
+    "10.1371/journal.pgen.1009440",
+    "10.1038/s41588-022-01233-6",
+    "10.1038/nature15393",
+    "10.1093/nar/gkae1070",
+    "10.1093/bioinformatics/btab665",
+    "10.1038/s41467-021-27438-7",
+    "10.1371/journal.pgen.1010299"
+  ],
+  "submission_status": {
+    "state": "NOT READY FOR FINAL SUBMISSION",
+    "authorization": "Final submission requires corresponding-author confirmation of author order, affiliations, declarations, and submission approval.",
+    "repository_release": "A public repository URL, archival DOI, and author-approved open-source license are required before final acceptance."
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "gate_ready_for_dispatch": false,
+  "model_eligibility": null,
+  "schema_version": "1.2",
+  "status": "INELIGIBLE",
+  "status_codes": [
+    "E_TEST_NONREADY"
+  ]
+}

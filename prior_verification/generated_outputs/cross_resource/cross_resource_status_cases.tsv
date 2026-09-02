@@ -1,0 +1,11 @@
+region_id	gwas	gene	context	resource_family	status	ineligibility_reason
+HF|ENSG00000145476|Fairfax_monocyte_LPS24	HF	ENSG00000145476	Fairfax_monocyte_LPS24	Fairfax	ineligible	missing_ld_reference
+HF|ENSG00000145476|GTEx_Fibroblast	HF	ENSG00000145476	GTEx_Fibroblast	GTEx	completed_no_comparable_credible_sets	no pair of SuSiE credible sets was available for colocalization
+HF|ENSG00000145476|GTEx_Heart_LV	HF	ENSG00000145476	GTEx_Heart_LV	GTEx	completed_no_comparable_credible_sets	no pair of SuSiE credible sets was available for colocalization
+HF|ENSG00000145476|GTEx_Whole_Blood	HF	ENSG00000145476	GTEx_Whole_Blood	GTEx	completed_no_comparable_credible_sets	no pair of SuSiE credible sets was available for colocalization
+CAD|ENSG00000185201|GTEx_Fibroblast	CAD	ENSG00000185201	GTEx_Fibroblast	GTEx	completed	
+CAD|ENSG00000185201|OneK1K_NK	CAD	ENSG00000185201	OneK1K_NK	OneK1K	completed	
+CAD|ENSG00000177042|Fairfax_monocyte_IFN24	CAD	ENSG00000177042	Fairfax_monocyte_IFN24	Fairfax	completed	
+CAD|ENSG00000177042|Fairfax_monocyte_naive	CAD	ENSG00000177042	Fairfax_monocyte_naive	Fairfax	failed	"The estimated prior variance is unreasonably large.
+	     This is usually caused by mismatch between the summary statistics and the LD matrix.
+             Please check the input."

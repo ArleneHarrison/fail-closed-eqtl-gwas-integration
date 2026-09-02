@@ -1,0 +1,11 @@
+Layer	Code or field	Meaning	Required interpretation
+Decision	READY/OK	All named checks passed	Policy conformance only; not model eligibility
+Decision	INELIGIBLE	At least one named check failed	Stop and retain the failure record
+LD identity	E_LD_VARIANT_SET_MISMATCH	Summary and LD identifiers differ	No imputation or silent intersection
+LD identity	E_LD_VARIANT_ORDER_MISMATCH	Summary and LD order differs	Set equality alone is insufficient
+LD identity	E_LD_VARIANT_DUPLICATE / E_LD_VARIANT_COUNT_MISMATCH	LD identifier vector is ambiguous or dimensionally inconsistent	Archive must be rebuilt or corrected at source
+LD integrity	E_LD_NOT_PSD	Minimum eigenvalue is below numerical tolerance	Symmetry and unit diagonal alone are insufficient
+LD rank	E_LD_RANK_DEFICIENT	Rank is below dimension under strict policy	Model-specific; not universally fatal
+LD conditioning	E_LD_ILL_CONDITIONED	Finite full-rank condition number exceeds threshold	Threshold requires prospective model justification
+Analysis view	E_VARIANT_DUPLICATE	Discordant duplicate summary rows remain	Do not choose a row automatically
+Trait metadata	E_CASE_FRACTION_HETEROGENEOUS	Row fractions differ under constant-row policy	May be diagnostic under a declared study-level policy

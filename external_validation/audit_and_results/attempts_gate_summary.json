@@ -1,0 +1,8 @@
+{
+  "gate_status_counts": {
+    "READY": 192
+  },
+  "integrity_status": "PASS",
+  "n_attempts": 192,
+  "non_READY_with_posterior": 0
+}

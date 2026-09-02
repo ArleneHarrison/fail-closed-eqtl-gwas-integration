@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "If you use this software or its reproducibility materials, please cite the archived release."
+title: "An executable fail-closed contract for regional eQTL–GWAS integration: a multi-tissue technical evaluation in coronary artery disease and heart failure"
+type: software
+version: 0.1.0
+date-released: 2026-09-01
+license: Apache-2.0
+authors:
+  - family-names: Tao
+    given-names: Zhiyong
+    orcid: "https://orcid.org/0009-0001-2454-2432"
+    affiliation: "Department of Cardiology, Renmin Hospital of Wuhan University"
+  - family-names: Zhang
+    given-names: Yiwei
+    orcid: "https://orcid.org/0009-0008-7513-7956"
+    affiliation: "Department of Cardiology, Renmin Hospital of Wuhan University"
+  - family-names: Fan
+    given-names: Guohua
+    orcid: "https://orcid.org/0009-0005-7470-7863"
+    affiliation: "Department of Cardiology, Renmin Hospital of Wuhan University"
+repository-code: "https://github.com/ArleneHarrison/fail-closed-eqtl-gwas-integration"
+url: "https://github.com/ArleneHarrison/fail-closed-eqtl-gwas-integration"
+abstract: >-
+  An executable, auditable fail-closed contract for regional eQTL–GWAS
+  integration, accompanied by synthetic verification and a prospectively
+  frozen multi-tissue technical evaluation in coronary artery disease and
+  heart failure. The release supports claims about workflow reliability and
+  failure handling; it does not assert new biological or clinical findings.
+keywords:
+  - eQTL
+  - GWAS
+  - linkage disequilibrium
+  - reproducibility
+  - quality control
+  - statistical genetics
+  - coronary artery disease
+  - heart failure

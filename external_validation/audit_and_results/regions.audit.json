@@ -1,0 +1,30 @@
+{
+  "downstream_results_consulted": false,
+  "generated_at_utc": "2026-09-01T17:44:36Z",
+  "n_regions": 24,
+  "protocol_id": "cv_external_validation_20260901_v2",
+  "protocol_sha256": "ec619b392221037bf63628919b22bba0b45d9f1c0ccd720b9ec52531e0bf0ba6",
+  "selection_basis": "GWAS_chromosome_position_and_p_value_only",
+  "selection_inputs": {
+    "CAD": {
+      "columns": {
+        "chromosome": "chr",
+        "p_value": "pval",
+        "position": "bp",
+        "variant_id": "uniqid"
+      },
+      "separator": "whitespace",
+      "sha256": "ab1f369c8e6a39e9abe6210ed9f3be44899f00064536a9ee5a773838a4bf266a"
+    },
+    "HF": {
+      "columns": {
+        "chromosome": "chr",
+        "p_value": "pval",
+        "position": "pos_b37",
+        "variant_id": "#key"
+      },
+      "separator": "tab",
+      "sha256": "5332e2ab00e447b05e14f0e4ee032a2bbb6f4b3166725d91ae3d9ab2b637a661"
+    }
+  }
+}

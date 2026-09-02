@@ -1,0 +1,6 @@
+Input condition	Completed of 100	Detectable from contract metadata	Median causal PIP	Causal variant in 95% CS	Lead changed vs correct	Median PIP L1 drift	Median regional PP.H4
+Correct contract	100	No	0.171	0.990	0.000	0.000	0.995
+Summary order permuted	100	Yes	0.000	0.010	0.990	4.000	0.121
+10% signs reversed	100	No	0.000	0.240	0.940	3.000	0.995
+EAS LD substituted	100	Yes	0.196	0.980	0.360	1.202	0.995
+AFR LD substituted	100	Yes	0.123	0.720	0.760	2.792	0.995

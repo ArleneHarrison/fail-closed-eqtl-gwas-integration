@@ -1,0 +1,61 @@
+{
+  "binding": {
+    "case_fraction": 0.0816774392949421,
+    "gate_ready_for_dispatch": true,
+    "gate_sha256": "dcded8869868501b25247176066833085fbde3a52c5ca383510279ab9f7d7f9d",
+    "implementation_lock_sha256": "a771251b9e9db3e56210cfd8229393b6bba1110d696431eef82adafd0f82f345",
+    "model_parameters": {
+      "back_calculate_lbf_activity": "formal_accepted_but_unreferenced_in_coloc_5.2.3_body",
+      "check_prior": true,
+      "coloc_back_calculate_lbf": false,
+      "coloc_overlap_min": 0.5,
+      "coloc_p1": 0.0001,
+      "coloc_p12": 5e-06,
+      "coloc_p2": 0.0001,
+      "coloc_trim_by_posterior": true,
+      "coloc_version": "5.2.3",
+      "coverage": 0.95,
+      "estimate_residual_variance": false,
+      "max_iter": 1000,
+      "min_abs_corr": 0.5,
+      "prior_variance_activity": "inactive_when_N_is_supplied_in_susieR_0.14.2",
+      "prior_variance_api_default": 50,
+      "repeat_until_convergence": false,
+      "scaled_prior_variance": 0.2,
+      "seed": 20260901,
+      "susieR_version": "0.14.2",
+      "susie_L": 10,
+      "tol": 0.001,
+      "z_ld_weight": 0
+    },
+    "outcome_id": "HF",
+    "prepared_input_sha256": {
+      "ld.npz": "12456f34fea1fbca9ad922c35177dfe5e1e32e5fa58e421a45ad103031490a44",
+      "overlap.json": "b390cd3a4d21269fa4615b3a2d25f9e669b8fed77f3c2808e6ab59122d1c51ef",
+      "provenance.json": "af55f38e2bcfec5c171e24193f09d9c21f3832c71ccc69339461f450a2446222",
+      "summary.csv": "c71b38ebc8d34eab7fcbeaf827c737e89841643b8c0057ed3bcaa3a128acae54"
+    },
+    "protocol_canonical_json_sha256": "ec619b392221037bf63628919b22bba0b45d9f1c0ccd720b9ec52531e0bf0ba6",
+    "runner_sha256": "f46fe8e94c9371b98dadac81ce025769f7c8a2888a3470f1d957c31d5e84680e",
+    "unit_id": "CAD_L01__QTD000131__HF"
+  },
+  "binding_sha256": "cdbd5005d787b10e71c4deec8dbea74ec9edc4051337ea78f29e6d029206ecb3",
+  "elapsed_clock": "14:45.14",
+  "elapsed_seconds": 885.144414,
+  "max_rss_kb": 1071120,
+  "model_invoked": true,
+  "reason": "susie_rss() did not converge in 1000 iterations. Try running with run_until_convergence=TRUE",
+  "result_sha256": {
+    "ld_model_policy.csv": "4a4083e6c00cb973f1d41220e45119156d57a64439f46c5ad76225cff7b7353e",
+    "model_implementation_policy.csv": "858845d836bfb4c0fc9e74824585165a17d60c8523bb7d12302420f6408a0535",
+    "status.csv": "8713acbb683ee93c53dc14186093659746e537fe7c6acbe236b6b9ea31a763bf"
+  },
+  "returncode": 1,
+  "run_directory": "run_cdbd5005d787b10e",
+  "stable_code": "E_SUSIE_NONCONVERGENCE",
+  "status": "FAILED",
+  "system_seconds": "1.75",
+  "time_exit_status": 1,
+  "unit_id": "CAD_L01__QTD000131__HF",
+  "user_seconds": "883.33"
+}

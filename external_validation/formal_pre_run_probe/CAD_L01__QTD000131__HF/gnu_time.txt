@@ -1,0 +1,24 @@
+Command exited with non-zero status 1
+	Command being timed: "timeout --signal=TERM --kill-after=30s 3600 Rscript PROJECT_ROOT/scripts/formal/run_coloc_susie_rank_diagnostic.R /tmp/hcsmr_cvd_external_validation_20260901/formal_v6_bounded_probe_final_defaults_v2/units/CAD_L01__QTD000131__HF/.staging_b2ivizn4/locked_input 0.0816774392949421 /tmp/hcsmr_cvd_external_validation_20260901/formal_v6_bounded_probe_final_defaults_v2/units/CAD_L01__QTD000131__HF/.staging_b2ivizn4"
+	User time (seconds): 883.33
+	System time (seconds): 1.75
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 14:45.14
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1071120
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 518417
+	Voluntary context switches: 330
+	Involuntary context switches: 861
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 1

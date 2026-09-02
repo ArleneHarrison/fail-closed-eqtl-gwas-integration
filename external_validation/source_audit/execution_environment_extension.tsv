@@ -1,0 +1,7 @@
+recorded_at_utc	component	version	collection_method	scope
+2026-09-01T19:14:00Z	pyliftover	0.4.1	Python importlib.metadata.version	formal raw-preparation host
+2026-09-01T19:14:00Z	pandas	2.3.3	Python importlib.metadata.version	formal raw-preparation host
+2026-09-01T19:14:00Z	SciPy	1.17.1	Python importlib.metadata.version	formal raw-preparation host
+2026-09-01T19:14:00Z	R	4.5.1	R getRversion	formal model-dispatch host
+2026-09-01T19:14:00Z	coloc	5.2.3	R packageVersion	formal model-dispatch host
+2026-09-01T19:14:00Z	susieR	0.14.2	R packageVersion	formal model-dispatch host

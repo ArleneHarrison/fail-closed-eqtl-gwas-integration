@@ -1,0 +1,60 @@
+{
+  "gene": "ENSG00000035115",
+  "gwas": {
+    "CAD": {
+      "exact_duplicates_collapsed": 0,
+      "invalid_rows_excluded": 0,
+      "source_rows": 3680,
+      "valid_unique_keys": 3680
+    },
+    "HF": {
+      "exact_duplicates_collapsed": 0,
+      "invalid_rows_excluded": 0,
+      "source_rows": 4695,
+      "valid_unique_keys": 4695
+    }
+  },
+  "liftover": {
+    "endpoint_status": "PASS_UNIQUE_POSITIVE_STRAND_EXACT_ROUNDTRIP",
+    "source_build": "GRCh37",
+    "source_region": [
+      "2",
+      152565,
+      1152565
+    ],
+    "target_build": "GRCh38",
+    "target_region": [
+      "2",
+      152565,
+      1156879
+    ]
+  },
+  "reference": {
+    "decoded_canonical_byte_count": 16762544,
+    "decoded_content_sha256": "73a685fc05259fa48398e9dab2400c1d3a2f6d61a1b904166eb3428c42d9fb24",
+    "discordant_duplicate_key_audit": [],
+    "fingerprint_scope": "sorted_position_ref_alt_plus_EUR503_uint8_dosage;255_is_missing;not_remote_BGZF_file_checksum",
+    "index_path": "PROJECT_ROOT/data/ld/remote_index_cache/ALL.chr2.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes.vcf.gz.tbi",
+    "index_sha256": "de9cbe172468d433ecbf6f451d9eec256c1291274f61f6f51443a57cc906e8e7",
+    "n_biallelic_records": 32530,
+    "n_discordant_duplicate_keys_excluded": 0,
+    "n_eur_samples": 503,
+    "n_exact_duplicate_keys": 0,
+    "n_interval_overlapping_records_excluded_by_pos": 3,
+    "region": "2:152565-1152565",
+    "transport": "pysam_htslib_remote_range_fetch_with_certifi_CA",
+    "url": "https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/ALL.chr2.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes.vcf.gz"
+  },
+  "region": {
+    "anchor_outcome": "HF",
+    "chromosome": "2",
+    "lead_p_value": "7.124e-13",
+    "lead_position": "652565",
+    "lead_variant": "02:000652565:A_G",
+    "region_end": "1152565",
+    "region_id": "HF_L10",
+    "region_start": "152565",
+    "selection_basis": "GWAS_chromosome_position_and_p_value_only",
+    "selection_rank": "10"
+  }
+}

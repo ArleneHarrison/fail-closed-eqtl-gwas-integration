@@ -1,0 +1,3 @@
+unit_id	region_id	anchor_outcome	tissue_id	outcome_id	gene_id	pre_gate_status	pre_gate_code	n_overlap
+CAD_L01__QTD000131__CAD	CAD_L01	CAD	QTD000131	CAD	ENSG00000099810	PENDING	PENDING	2577
+CAD_L01__QTD000131__HF	CAD_L01	CAD	QTD000131	HF	ENSG00000099810	PENDING	PENDING	2891

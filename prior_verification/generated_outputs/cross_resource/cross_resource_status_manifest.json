@@ -1,0 +1,29 @@
+{
+  "source_sha256": "4ef1cf136e215a670cb57ceebd7da1cc5684f2233ff9f76c9f63231c76094b36",
+  "cases": 8,
+  "gwas_outcomes": [
+    "CAD",
+    "HF"
+  ],
+  "resource_families": [
+    "Fairfax",
+    "GTEx",
+    "OneK1K"
+  ],
+  "contexts": [
+    "Fairfax_monocyte_IFN24",
+    "Fairfax_monocyte_LPS24",
+    "Fairfax_monocyte_naive",
+    "GTEx_Fibroblast",
+    "GTEx_Heart_LV",
+    "GTEx_Whole_Blood",
+    "OneK1K_NK"
+  ],
+  "status_counts": {
+    "completed_no_comparable_credible_sets": 3,
+    "completed": 3,
+    "ineligible": 1,
+    "failed": 1
+  },
+  "claim_boundary": "Retrospective portability/status audit only. Posterior values are deliberately not summarized, and no association, colocalization, tissue, or biological claim is made."
+}

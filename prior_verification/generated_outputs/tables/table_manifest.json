@@ -1,0 +1,112 @@
+{
+  "schema_version": "4.0",
+  "tables": [
+    {
+      "number": "1",
+      "title": "Gate decisions, contracts, and interpretation",
+      "path": "table_1_contract_taxonomy.tsv",
+      "column_widths_inches": [
+        1.0,
+        1.75,
+        1.75,
+        1.85
+      ],
+      "caption": "READY records conformance to a named gate policy only. Codes are stable machine-readable stop reasons."
+    },
+    {
+      "number": "2",
+      "title": "Software and numerical verification summary",
+      "path": "table_2_validation_summary.tsv",
+      "column_widths_inches": [
+        1.55,
+        1.15,
+        1.45,
+        2.2
+      ],
+      "caption": "All counts apply to fixed generated fixtures and the recorded local environment; no sampling-based confidence interval is implied."
+    },
+    {
+      "number": "3",
+      "title": "Post-hoc stored-artifact policy re-audit",
+      "path": "table_3_real_policy_reaudit.tsv",
+      "column_widths_inches": [
+        0.5,
+        0.75,
+        0.85,
+        0.9,
+        0.75,
+        0.75,
+        1.85
+      ],
+      "caption": "C2 is the additional coordinate case. READY denotes declared-policy conformance only. No downstream model was run."
+    },
+    {
+      "number": "4",
+      "title": "Evidence hierarchy and claim boundaries",
+      "path": "table_4_claim_boundaries.tsv",
+      "column_widths_inches": [
+        1.45,
+        1.55,
+        1.75,
+        1.6
+      ],
+      "caption": "The synthetic downstream stress test quantifies model sensitivity but does not establish empirical association, biological validity, clinical utility, or comparative superiority."
+    },
+    {
+      "number": "5",
+      "title": "Scope comparison with adjacent standards and methods",
+      "path": "table_5_scope_comparison.tsv",
+      "column_widths_inches": [
+        1.0,
+        1.35,
+        2.0,
+        2.0
+      ],
+      "caption": "This is a descriptive scope comparison based on the cited primary publications, not a head-to-head performance benchmark. An omitted function means only that it was not evaluated as part of the cited tool's stated primary role."
+    },
+    {
+      "number": "6",
+      "title": "Cross-ancestry LD-panel portability for fixed regional variants",
+      "path": "table_6_cross_ancestry_ld.tsv",
+      "column_widths_inches": [
+        0.45,
+        0.55,
+        0.65,
+        0.75,
+        1.1,
+        0.75,
+        0.9,
+        1.15
+      ],
+      "caption": "Matrices were reconstructed from 1000 Genomes Phase 3 GRCh37 for the same fixed variants. This is an LD-reference portability test, not multi-ancestry molecular-QTL or GWAS validation."
+    },
+    {
+      "number": "7",
+      "title": "Synthetic downstream-consumer stress test",
+      "path": "table_7_downstream_stress.tsv",
+      "column_widths_inches": [
+        1.15,
+        0.65,
+        0.95,
+        0.7,
+        0.75,
+        0.8,
+        0.75,
+        0.8
+      ],
+      "caption": "One shared causal variant was simulated under EUR LD in each replicate. SuSiE-RSS PIP metrics and coloc.abf regional PP.H4 describe sensitivity to controlled input corruption only."
+    },
+    {
+      "number": "8",
+      "title": "Retrospective cross-resource workflow-status audit",
+      "path": "table_8_cross_resource_status.tsv",
+      "column_widths_inches": [
+        0.8,
+        1.5,
+        2.25,
+        0.55
+      ],
+      "caption": "Eight archived cases span two GWAS outcomes, three molecular-QTL resource families, and seven contexts. Posterior values are deliberately omitted; statuses are not biological results."
+    }
+  ]
+}

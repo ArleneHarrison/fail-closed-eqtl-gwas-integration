@@ -1,0 +1,25 @@
+{
+  "schema_version": "2.0",
+  "figure_number": "2",
+  "caption": "Figure 2. Deterministic construction of the unique analysis view. Exact duplicate and LD-absent rows are excluded with explicit row-level decisions; no discordant duplicate was found in these stored artifacts.",
+  "figure_contract": "workflow-only; no association, posterior, biological, clinical, or performance claim",
+  "sources": [
+    {
+      "path": "paper\\revision_20260830\\revised_policy_audit\\revised_policy_audit_summary.tsv",
+      "sha256": "3324e9a2a8d3f70011caff09a14e0cec52c74880800be4da9adbde1da8065641"
+    }
+  ],
+  "outputs": {
+    "png": {
+      "path": "paper\\revision_20260831_strengthened\\final_package\\figures/figure_2_revised_analysis_view.png",
+      "sha256": "f19a05c2da77bf14ba63e83586c4ecc8aa4b04e0e184da1f32b1698ed9ea229a",
+      "dpi": 600
+    },
+    "svg": {
+      "path": "paper\\revision_20260831_strengthened\\final_package\\figures/figure_2_revised_analysis_view.svg",
+      "sha256": "cb7ff740265317d2ac1257e17468bf83da3273b4b98fb2debc0a3ca9ac90e21c"
+    }
+  },
+  "R": "R version 4.5.2 (2025-10-31 ucrt)",
+  "ggplot2": "4.0.2"
+}

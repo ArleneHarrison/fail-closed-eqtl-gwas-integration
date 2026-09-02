@@ -1,0 +1,9 @@
+{
+  "lock_filename": "model_implementation.lock.json",
+  "lock_sha256": "a771251b9e9db3e56210cfd8229393b6bba1110d696431eef82adafd0f82f345",
+  "protocol_canonical_json_sha256": "ec619b392221037bf63628919b22bba0b45d9f1c0ccd720b9ec52531e0bf0ba6",
+  "runner_sha256": "f46fe8e94c9371b98dadac81ce025769f7c8a2888a3470f1d957c31d5e84680e",
+  "schema_version": "1.1",
+  "state": "FROZEN",
+  "write_policy": "read_only_after_creation"
+}

@@ -1,0 +1,10 @@
+source,genome_build,role,source_evidence
+GTEx v8,GRCh38,eQTL,GTEx v8 variant identifiers use GRCh38 coordinates
+Fairfax eQTL Catalogue,GRCh38,eQTL,QTL Catalogue harmonized all-associations release
+OneK1K eQTL Catalogue,GRCh38,eQTL,QTL Catalogue harmonized all-associations release
+Alasoo eQTL Catalogue,GRCh38,eQTL,QTL Catalogue harmonized all-associations release
+BLUEPRINT eQTL Catalogue,GRCh38,eQTL,QTL Catalogue harmonized all-associations release
+CAD Aragam 2022,GRCh37,GWAS,Local filename and download URL state buildGRCh37
+GIGASTROKE IS,GRCh37,GWAS,Local filename and download URL state buildGRCh37
+HERMES HF,GRCh37,GWAS,Original HERMES README declares BP as hg19 position
+Nielsen AF 2018,unknown,GWAS,Build must be verified from original release before use

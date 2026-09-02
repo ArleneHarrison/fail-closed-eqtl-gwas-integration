@@ -1,0 +1,36 @@
+{
+  "title": "An executable fail-closed contract for regional eQTL–GWAS integration: a multi-tissue technical evaluation in coronary artery disease and heart failure",
+  "upload_type": "software",
+  "description": "Versioned software and reproducibility materials for an executable fail-closed contract for regional eQTL–GWAS integration. The release includes synthetic verification, locked protocols, tests, aggregate audit outputs, and a prospectively frozen multi-tissue cardiovascular technical evaluation. It supports workflow-reliability and failure-handling claims, not new biological associations, causal effects, clinical utility, or general superiority claims. Raw third-party GWAS, eQTL, genotype-reference data, posterior objects, and controlled-access materials are not redistributed.",
+  "creators": [
+    {
+      "name": "Tao, Zhiyong",
+      "affiliation": "Department of Cardiology, Renmin Hospital of Wuhan University",
+      "orcid": "0009-0001-2454-2432"
+    },
+    {
+      "name": "Zhang, Yiwei",
+      "affiliation": "Department of Cardiology, Renmin Hospital of Wuhan University",
+      "orcid": "0009-0008-7513-7956"
+    },
+    {
+      "name": "Fan, Guohua",
+      "affiliation": "Department of Cardiology, Renmin Hospital of Wuhan University",
+      "orcid": "0009-0005-7470-7863"
+    }
+  ],
+  "access_right": "open",
+  "license": "Apache-2.0",
+  "keywords": [
+    "eQTL",
+    "GWAS",
+    "linkage disequilibrium",
+    "reproducibility",
+    "quality control",
+    "statistical genetics",
+    "coronary artery disease",
+    "heart failure"
+  ],
+  "language": "eng",
+  "notes": "Software is Apache-2.0. Project-authored documentation, figures, tables, and generated audit data are CC BY 4.0. Third-party source data are not redistributed."
+}

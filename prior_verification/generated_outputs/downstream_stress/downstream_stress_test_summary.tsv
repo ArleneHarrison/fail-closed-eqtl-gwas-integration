@@ -1,0 +1,6 @@
+condition	replicates	completed	contract_detectable	median_causal_pip	causal_in_95_cs_rate	lead_changed_rate_vs_correct	median_pip_l1_drift_vs_correct	median_max_pp_h4	nonmissing_coloc_replicates
+correct	100	100	FALSE	0.171478834116056	0.99	0	0	0.994536308152265	100
+summary_order_permuted	100	100	TRUE	0	0.01	0.99	3.99999976064926	0.121380022544102	100
+ten_percent_sign_flipped	100	100	FALSE	0	0.24	0.94	2.99998767064839	0.994536308152265	100
+EAS_LD_substituted	100	100	TRUE	0.195600372472554	0.98	0.36	1.20236547496167	0.994536308152265	100
+AFR_LD_substituted	100	100	TRUE	0.122774891278233	0.72	0.76	2.79179445230406	0.994536308152265	100

@@ -1,0 +1,12 @@
+Validation component	Cases	Observed result	Supported interpretation
+Local test suite	93 tests	93/93 passed	Enumerated unit and contract behavior passed locally
+Complete synthetic contract	100 runs	100/100 READY/OK	Deterministic pass path is executable
+Enumerated fault injection	25 unique fixtures x 100 runs	2500/2500 expected codes	Named stop paths are executable
+Fixed boundary fixtures	6 cases	6/6 matched	Implemented comparisons match fixed expectations
+R/SVD rank oracle	80 matrices	80/80 agreement	Numerical-rank implementation agrees across decomposition paths
+R/SVD finite condition number	64 full-rank matrices	64/64 within 1e-6 relative error	Condition-number formula agrees across decomposition paths
+Real-scale R/SVD extension	4 generated matrices (225-1776 variants) plus 1 stored 225-variant LD matrix	5/5 rank agreement; 4/4 finite condition agreement	Construction-scale and stored-matrix checks agree with the independent decomposition path
+Permutation metamorphic test	75 matrices	75/75 invariant	Diagnostics are invariant to simultaneous row-column permutation
+Indefinite matrix challenge	3 matrices	3/3 E_LD_NOT_PSD	Materially indefinite correlation-like matrices fail closed
+Synthetic downstream consumer stress test	5 conditions x 100 replicates	500/500 SuSiE-RSS and coloc.abf evaluations completed	Selected input corruptions produce quantifiable consumer-output drift
+External biological validation	Not performed	No result	No association, causal, biological, therapeutic, or clinical claim
