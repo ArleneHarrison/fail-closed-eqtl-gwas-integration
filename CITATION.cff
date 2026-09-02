@@ -2,15 +2,23 @@ cff-version: 1.2.0
 message: "If you use this software or its reproducibility materials, please cite the archived release."
 title: "An executable fail-closed contract for regional eQTL–GWAS integration: a multi-tissue technical evaluation in coronary artery disease and heart failure"
 type: software
-version: 0.1.1
+version: 0.1.2
 date-released: 2026-09-02
 license: Apache-2.0
-doi: 10.5281/zenodo.22241698
+doi: 10.5281/zenodo.22241026
 identifiers:
   - type: doi
-    value: 10.5281/zenodo.22241698
-    description: "Version 0.1.1 archived release"
+    value: 10.5281/zenodo.22241026
+    description: "All-versions concept DOI; the v0.1.2 version DOI is added after archiving"
 authors:
+  - family-names: Tao
+    given-names: Zhiyong
+    orcid: "https://orcid.org/0009-0001-2454-2432"
+    affiliation: "Department of Thoracic Surgery, Renmin Hospital of Wuhan University"
+  - family-names: Zhang
+    given-names: Yiwei
+    orcid: "https://orcid.org/0009-0008-7513-7956"
+    affiliation: "Peking Union Medical College Hospital"
   - family-names: Zhong
     given-names: Chulin
     orcid: "https://orcid.org/0009-0001-0840-3846"

@@ -1,11 +1,10 @@
-# v0.1.1 — corrected author metadata release
+# v0.1.2 — complete author-order correction
 
-**Archived release DOI:** [10.5281/zenodo.22241698](https://doi.org/10.5281/zenodo.22241698)  
 **All-versions concept DOI:** [10.5281/zenodo.22241026](https://doi.org/10.5281/zenodo.22241026)
 
-This release corrects the creator and citation metadata to the final author list: Chulin Zhong, Jin Zhou, and Guohua Fan. It updates `CITATION.cff`, `.zenodo.json`, CodeMeta, copyright notices, and public citation guidance.
+This release restores the complete author order: Zhiyong Tao, Yiwei Zhang, Chulin Zhong, Jin Zhou, and Guohua Fan. Zhiyong Tao is affiliated with the Department of Thoracic Surgery, Renmin Hospital of Wuhan University; Yiwei Zhang is affiliated with Peking Union Medical College Hospital. It updates `CITATION.cff`, `.zenodo.json`, CodeMeta, copyright notices, and public citation guidance.
 
-The executable code, tests, frozen protocols, generated audit outputs, figures, tables, and scientific interpretation boundaries are unchanged from v0.1.0.
+The executable code, tests, frozen protocols, generated audit outputs, figures, tables, and scientific interpretation boundaries are unchanged from v0.1.1.
 
 ## Verification record retained unchanged
 

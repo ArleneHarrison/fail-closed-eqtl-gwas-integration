@@ -3,10 +3,10 @@
   "@type": "SoftwareSourceCode",
   "name": "Fail-closed regional eQTL–GWAS integration",
   "description": "An executable and auditable fail-closed contract for regional eQTL–GWAS integration with synthetic verification and a multi-tissue cardiovascular technical evaluation.",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "datePublished": "2026-09-02",
-  "identifier": "https://doi.org/10.5281/zenodo.22241698",
-  "sameAs": "https://zenodo.org/records/22241698",
+  "identifier": "https://doi.org/10.5281/zenodo.22241026",
+  "sameAs": "https://doi.org/10.5281/zenodo.22241026",
   "codeRepository": "https://github.com/ArleneHarrison/fail-closed-eqtl-gwas-integration",
   "license": "https://spdx.org/licenses/Apache-2.0",
   "programmingLanguage": ["Python", "R", "Shell"],
@@ -20,6 +20,20 @@
     "statistical genetics"
   ],
   "author": [
+    {
+      "@type": "Person",
+      "givenName": "Zhiyong",
+      "familyName": "Tao",
+      "@id": "https://orcid.org/0009-0001-2454-2432",
+      "affiliation": "Department of Thoracic Surgery, Renmin Hospital of Wuhan University"
+    },
+    {
+      "@type": "Person",
+      "givenName": "Yiwei",
+      "familyName": "Zhang",
+      "@id": "https://orcid.org/0009-0008-7513-7956",
+      "affiliation": "Peking Union Medical College Hospital"
+    },
     {
       "@type": "Person",
       "givenName": "Chulin",
