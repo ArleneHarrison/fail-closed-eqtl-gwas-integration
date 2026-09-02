@@ -1,5 +1,6 @@
 {
   "title": "An executable fail-closed contract for regional eQTL–GWAS integration: a multi-tissue technical evaluation in coronary artery disease and heart failure",
+  "version": "0.1.0",
   "upload_type": "software",
   "description": "Versioned software and reproducibility materials for an executable fail-closed contract for regional eQTL–GWAS integration. The release includes synthetic verification, locked protocols, tests, aggregate audit outputs, and a prospectively frozen multi-tissue cardiovascular technical evaluation. It supports workflow-reliability and failure-handling claims, not new biological associations, causal effects, clinical utility, or general superiority claims. Raw third-party GWAS, eQTL, genotype-reference data, posterior objects, and controlled-access materials are not redistributed.",
   "creators": [
