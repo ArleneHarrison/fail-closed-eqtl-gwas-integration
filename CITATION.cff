@@ -5,11 +5,11 @@ type: software
 version: 0.1.1
 date-released: 2026-09-02
 license: Apache-2.0
-doi: 10.5281/zenodo.22241026
+doi: 10.5281/zenodo.22241698
 identifiers:
   - type: doi
-    value: 10.5281/zenodo.22241026
-    description: "All-versions concept DOI"
+    value: 10.5281/zenodo.22241698
+    description: "Version 0.1.1 archived release"
 authors:
   - family-names: Zhong
     given-names: Chulin
