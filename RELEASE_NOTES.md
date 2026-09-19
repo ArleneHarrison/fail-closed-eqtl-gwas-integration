@@ -1,5 +1,6 @@
 # v0.2.0 — multi-signal and signed-LD graph extension
 
+**Archived release DOI:** [10.5281/zenodo.22848192](https://doi.org/10.5281/zenodo.22848192)  
 **All-versions concept DOI:** [10.5281/zenodo.22241026](https://doi.org/10.5281/zenodo.22241026)
 
 Version 0.2.0 adds the computational extensions used in the revised manuscript, ``Fail-closed validation with LD-graph anomaly triage for regional eQTL–GWAS integration: multi-tissue benchmarking in coronary artery disease and heart failure.''

@@ -78,9 +78,9 @@ The exact file-level scope is described in [`LICENSE_SCOPE.md`](LICENSE_SCOPE.md
 
 Please cite the archived release:
 
-> Tao, Z., Zhang, Y., Zhong, C., Zhou, J., Gao, W., Ran, Y., & Fan, G. (2026). *Fail-closed validation with LD-graph anomaly triage for regional eQTL–GWAS integration: multi-tissue benchmarking in coronary artery disease and heart failure* (Version 0.2.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.22241026
+> Tao, Z., Zhang, Y., Zhong, C., Zhou, J., Gao, W., Ran, Y., & Fan, G. (2026). *Fail-closed validation with LD-graph anomaly triage for regional eQTL–GWAS integration: multi-tissue benchmarking in coronary artery disease and heart failure* (Version 0.2.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.22848192
 
-The all-versions concept DOI is `10.5281/zenodo.22241026`. Version 0.2.0 uses the complete manuscript author order: Zhiyong Tao, Yiwei Zhang, Chulin Zhong, Jin Zhou, Wenkai Gao, Yujiao Ran, and Guohua Fan.
+The version-specific DOI is `10.5281/zenodo.22848192`; the all-versions concept DOI is `10.5281/zenodo.22241026`. Version 0.2.0 uses the complete manuscript author order: Zhiyong Tao, Yiwei Zhang, Chulin Zhong, Jin Zhou, Wenkai Gao, Yujiao Ran, and Guohua Fan.
 
 ## Integrity
 
