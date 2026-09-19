@@ -1,15 +1,15 @@
 cff-version: 1.2.0
 message: "If you use this software or its reproducibility materials, please cite the archived release."
-title: "An executable fail-closed contract for regional eQTL–GWAS integration: a multi-tissue technical evaluation in coronary artery disease and heart failure"
+title: "Fail-closed validation with LD-graph anomaly triage for regional eQTL–GWAS integration: multi-tissue benchmarking in coronary artery disease and heart failure"
 type: software
-version: 0.1.2
-date-released: 2026-09-02
+version: 0.2.0
+date-released: 2026-09-20
 license: Apache-2.0
-doi: 10.5281/zenodo.22242564
+doi: 10.5281/zenodo.22241026
 identifiers:
   - type: doi
-    value: 10.5281/zenodo.22242564
-    description: "Version 0.1.2 archived release"
+    value: 10.5281/zenodo.22241026
+    description: "All-versions concept DOI"
 authors:
   - family-names: Tao
     given-names: Zhiyong
@@ -27,6 +27,14 @@ authors:
     given-names: Jin
     orcid: "https://orcid.org/0009-0005-4272-4538"
     affiliation: "Department of Emergency Medicine, Renmin Hospital of Wuhan University"
+  - family-names: Gao
+    given-names: Wenkai
+    orcid: "https://orcid.org/0009-0000-2900-9832"
+    affiliation: "Renmin Hospital of Wuhan University"
+  - family-names: Ran
+    given-names: Yujiao
+    orcid: "https://orcid.org/0009-0000-6247-4453"
+    affiliation: "Renmin Hospital of Wuhan University"
   - family-names: Fan
     given-names: Guohua
     orcid: "https://orcid.org/0009-0005-7470-7863"
@@ -35,9 +43,10 @@ repository-code: "https://github.com/ArleneHarrison/fail-closed-eqtl-gwas-integr
 url: "https://github.com/ArleneHarrison/fail-closed-eqtl-gwas-integration"
 abstract: >-
   An executable, auditable fail-closed contract for regional eQTL–GWAS
-  integration, accompanied by synthetic verification and a prospectively
-  frozen multi-tissue technical evaluation in coronary artery disease and
-  heart failure. The release supports claims about workflow reliability and
+  integration, accompanied by synthetic verification, multi-signal
+  robustness experiments, signed-LD graph anomaly triage, and a frozen
+  multi-tissue technical evaluation in coronary artery disease and heart
+  failure. The release supports claims about workflow reliability and
   failure handling; it does not assert new biological or clinical findings.
 keywords:
   - eQTL
@@ -46,5 +55,6 @@ keywords:
   - reproducibility
   - quality control
   - statistical genetics
+  - graph neural network
   - coronary artery disease
   - heart failure

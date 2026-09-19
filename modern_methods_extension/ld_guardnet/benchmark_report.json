@@ -1,0 +1,114 @@
+{
+  "schema_version": "1.0",
+  "scope": "synthetic LD-graph anomaly triage; not biological inference",
+  "model_name": "LD-GuardNet",
+  "architecture": "two signed LD message-passing blocks; node mean/max pooling; four-state classifier",
+  "classes": [
+    "valid",
+    "order_mismatch",
+    "sign_corruption",
+    "ld_mismatch"
+  ],
+  "predeclared_inclusion_rule": "Formal-run OOD macro one-vs-rest AUROC >=0.80, every class AUROC >=0.70, macro F1 >=0.60, and macro AUROC improvement over the logistic baseline >=0.03; locked after code smoke testing and before the formal run",
+  "inclusion_rule_passed": true,
+  "config": {
+    "seed": 20260920,
+    "train_replicates": 220,
+    "validation_replicates": 60,
+    "test_replicates": 100,
+    "max_epochs": 100,
+    "patience": 15,
+    "batch_size": 128,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "hidden_dim": 48,
+    "dropout": 0.2,
+    "training_seeds": [
+      11,
+      29,
+      47
+    ]
+  },
+  "split_contract": {
+    "train": "EUR/EAS/AFR; N=5000; one_shared and two_shared architectures",
+    "validation": "new seeds under the training regimes",
+    "ood_test": "unseen SAS/AMR panels; N=2000/20000; shared_plus_specific and distinct_only architectures"
+  },
+  "n_variants": 100,
+  "n_train": 5280,
+  "n_validation": 1440,
+  "n_ood_test": 3200,
+  "ensemble_metrics": {
+    "accuracy": 0.7740625,
+    "macro_f1": 0.7405079682134027,
+    "macro_ovr_auc": 0.9432304687499999,
+    "log_loss": 0.6716120839118958,
+    "anomaly_auc": 0.9021916666666666,
+    "anomaly_brier": 0.1637181043624878,
+    "auc_valid": 0.9021916666666666,
+    "recall_valid": 0.935,
+    "auc_order_mismatch": 0.9998880208333334,
+    "recall_order_mismatch": 1.0,
+    "auc_sign_corruption": 0.9990494791666666,
+    "recall_sign_corruption": 0.96,
+    "auc_ld_mismatch": 0.8717927083333332,
+    "recall_ld_mismatch": 0.20125
+  },
+  "bootstrap_95_ci": {
+    "accuracy": [
+      0.7596875,
+      0.7892265625
+    ],
+    "macro_f1": [
+      0.7297443430560758,
+      0.7535099919744257
+    ],
+    "macro_ovr_auc": [
+      0.9378831989379885,
+      0.9483481893224898
+    ],
+    "anomaly_auc": [
+      0.8918738646156579,
+      0.9120690865324522
+    ]
+  },
+  "baseline_metrics": {
+    "accuracy": 0.625625,
+    "macro_f1": 0.5718449638741279,
+    "macro_ovr_auc": 0.8632892578125,
+    "log_loss": 1.3472295999526978,
+    "anomaly_auc": 0.8113432291666667,
+    "anomaly_brier": 0.16308286786079407,
+    "auc_valid": 0.8113434895833332,
+    "recall_valid": 0.575,
+    "auc_order_mismatch": 0.9903661458333334,
+    "recall_order_mismatch": 0.995,
+    "auc_sign_corruption": 0.8946817708333334,
+    "recall_sign_corruption": 0.81875,
+    "auc_ld_mismatch": 0.7567656249999999,
+    "recall_ld_mismatch": 0.11375
+  },
+  "input_sha256": {
+    "EUR": "27ee0fa576d4c8cf8ef64019d12ea1058d7e2979c1bdc1cb2a58780307146d9c",
+    "EAS": "9c2d1afcba50cfe20ce874c5bfcc8e9b6924710f3b8c868ca3036d28639acf83",
+    "AFR": "67ec6972b312e57c149f1c091ee4310e80220a67767f8dcd6c0911a03f84b919",
+    "SAS": "70b8eb916d557f952ba77b44425ccc9a86685aafa76bffbcd011ee7d0e1775c8",
+    "AMR": "f035801850cdc7c8e7ef39e9c67293c033cdb5bfcf7ed039cd1db22260399dd3"
+  },
+  "runtime_seconds": 264.44184255599976,
+  "environment": {
+    "python": "3.12.10",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "sklearn": "1.9.0",
+    "torch": "2.11.0+cpu",
+    "cuda_available": false
+  },
+  "limitations": [
+    "All examples are synthetic and use one 100-variant genomic region.",
+    "The OOD test changes ancestry panel, architecture, sample size and seed, but not genomic region.",
+    "The detector is probabilistic triage and cannot replace deterministic contract checks.",
+    "No association, colocalisation, causal, biological or clinical claim is supported."
+  ]
+}

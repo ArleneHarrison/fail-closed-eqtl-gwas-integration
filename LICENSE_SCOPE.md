@@ -1,6 +1,6 @@
 # License scope
 
-Copyright 2026 Zhiyong Tao, Yiwei Zhang, Chulin Zhong, Jin Zhou, and Guohua Fan.
+Copyright 2026 Zhiyong Tao, Yiwei Zhang, Chulin Zhong, Jin Zhou, Wenkai Gao, Yujiao Ran, and Guohua Fan.
 
 This repository uses two licenses because it contains both executable software and research materials.
 
@@ -10,6 +10,7 @@ The repository-root `LICENSE` applies to project-authored software source code, 
 
 - `prior_verification/code/`
 - `external_validation/code_and_protocol/`
+- `modern_methods_extension/code/`
 
 It also applies to future project-authored software files unless a file carries a different notice.
 
@@ -22,6 +23,7 @@ It also applies to future project-authored software files unless a file carries 
 - `external_validation/audit_and_results/`;
 - `external_validation/methods_audit/`;
 - `external_validation/source_audit/`;
+- `modern_methods_extension/` except executable source files under `modern_methods_extension/code/`;
 - Markdown documentation elsewhere in the repository.
 
 Attribution should identify the repository title, the creators, the version or DOI, and whether changes were made.

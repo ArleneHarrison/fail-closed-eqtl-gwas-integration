@@ -1,8 +1,8 @@
 {
-  "title": "An executable fail-closed contract for regional eQTL–GWAS integration: a multi-tissue technical evaluation in coronary artery disease and heart failure",
-  "version": "0.1.2",
+  "title": "Fail-closed validation with LD-graph anomaly triage for regional eQTL–GWAS integration: multi-tissue benchmarking in coronary artery disease and heart failure",
+  "version": "0.2.0",
   "upload_type": "software",
-  "description": "Versioned software and reproducibility materials for an executable fail-closed contract for regional eQTL–GWAS integration. The release includes synthetic verification, locked protocols, tests, aggregate audit outputs, and a prospectively frozen multi-tissue cardiovascular technical evaluation. It supports workflow-reliability and failure-handling claims, not new biological associations, causal effects, clinical utility, or general superiority claims. Raw third-party GWAS, eQTL, genotype-reference data, posterior objects, and controlled-access materials are not redistributed.",
+  "description": "Versioned software and reproducibility materials for fail-closed regional eQTL–GWAS integration. Version 0.2.0 includes synthetic verification, locked protocols, tests, aggregate audit outputs, a multi-signal robustness experiment, LD-GuardNet signed-LD graph anomaly triage with model checkpoints, and a frozen multi-tissue cardiovascular technical evaluation. It supports workflow-reliability and failure-handling claims, not new biological associations, causal effects, clinical utility, deployment readiness, or general superiority claims. Raw third-party GWAS, eQTL, genotype-reference data, posterior objects, and controlled-access materials are not redistributed.",
   "creators": [
     {
       "name": "Tao, Zhiyong",
@@ -25,6 +25,16 @@
       "orcid": "0009-0005-4272-4538"
     },
     {
+      "name": "Gao, Wenkai",
+      "affiliation": "Renmin Hospital of Wuhan University",
+      "orcid": "0009-0000-2900-9832"
+    },
+    {
+      "name": "Ran, Yujiao",
+      "affiliation": "Renmin Hospital of Wuhan University",
+      "orcid": "0009-0000-6247-4453"
+    },
+    {
       "name": "Fan, Guohua",
       "affiliation": "Department of Cardiology, Renmin Hospital of Wuhan University",
       "orcid": "0009-0005-7470-7863"
@@ -39,6 +49,7 @@
     "reproducibility",
     "quality control",
     "statistical genetics",
+    "graph neural network",
     "coronary artery disease",
     "heart failure"
   ],

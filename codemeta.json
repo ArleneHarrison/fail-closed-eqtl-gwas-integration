@@ -2,11 +2,11 @@
   "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
   "@type": "SoftwareSourceCode",
   "name": "Fail-closed regional eQTL–GWAS integration",
-  "description": "An executable and auditable fail-closed contract for regional eQTL–GWAS integration with synthetic verification and a multi-tissue cardiovascular technical evaluation.",
-  "version": "0.1.2",
-  "datePublished": "2026-09-02",
-  "identifier": "https://doi.org/10.5281/zenodo.22242564",
-  "sameAs": "https://zenodo.org/records/22242564",
+  "description": "An executable and auditable fail-closed contract for regional eQTL–GWAS integration with multi-signal robustness experiments, signed-LD graph anomaly triage, and a multi-tissue cardiovascular technical evaluation.",
+  "version": "0.2.0",
+  "datePublished": "2026-09-20",
+  "identifier": "https://doi.org/10.5281/zenodo.22241026",
+  "sameAs": "https://doi.org/10.5281/zenodo.22241026",
   "codeRepository": "https://github.com/ArleneHarrison/fail-closed-eqtl-gwas-integration",
   "license": "https://spdx.org/licenses/Apache-2.0",
   "programmingLanguage": ["Python", "R", "Shell"],
@@ -17,7 +17,8 @@
     "linkage disequilibrium",
     "reproducibility",
     "quality control",
-    "statistical genetics"
+    "statistical genetics",
+    "graph neural network"
   ],
   "author": [
     {
@@ -47,6 +48,20 @@
       "familyName": "Zhou",
       "@id": "https://orcid.org/0009-0005-4272-4538",
       "affiliation": "Department of Emergency Medicine, Renmin Hospital of Wuhan University"
+    },
+    {
+      "@type": "Person",
+      "givenName": "Wenkai",
+      "familyName": "Gao",
+      "@id": "https://orcid.org/0009-0000-2900-9832",
+      "affiliation": "Renmin Hospital of Wuhan University"
+    },
+    {
+      "@type": "Person",
+      "givenName": "Yujiao",
+      "familyName": "Ran",
+      "@id": "https://orcid.org/0009-0000-6247-4453",
+      "affiliation": "Renmin Hospital of Wuhan University"
     },
     {
       "@type": "Person",

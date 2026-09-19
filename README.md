@@ -1,12 +1,12 @@
 # Fail-closed regional eQTL–GWAS integration
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22242564.svg)](https://doi.org/10.5281/zenodo.22242564)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22241026.svg)](https://doi.org/10.5281/zenodo.22241026)
 
 Versioned code and reproducibility materials for:
 
-> **An executable fail-closed contract for regional eQTL–GWAS integration: a multi-tissue technical evaluation in coronary artery disease and heart failure**
+> **Fail-closed validation with LD-graph anomaly triage for regional eQTL–GWAS integration: multi-tissue benchmarking in coronary artery disease and heart failure**
 
-This repository implements an auditable, fail-closed contract for preparing and evaluating regional eQTL–GWAS analyses. It treats coordinate identity, allele orientation, ordered variant overlap, linkage-disequilibrium provenance, matrix integrity, metadata completeness, and deterministic reruns as explicit preconditions. Inputs that do not satisfy the contract terminate with recorded states instead of being silently repaired or passed downstream.
+This repository implements an auditable, fail-closed contract for preparing and evaluating regional eQTL–GWAS analyses. It treats coordinate identity, allele orientation, ordered variant overlap, linkage-disequilibrium provenance, matrix integrity, metadata completeness, and deterministic reruns as explicit preconditions. Inputs that do not satisfy the contract terminate with recorded states instead of being silently repaired or passed downstream. Version 0.2.0 adds a multi-signal colocalization robustness experiment and LD-GuardNet, a compact signed-LD graph neural network for optional anomaly triage.
 
 The cardiovascular evaluation uses coronary artery disease and heart-failure resources to study workflow behaviour across multiple tissues. It is a **technical validation**, not a report of new biological associations, causal effects, drug targets, or clinical utility.
 
@@ -14,6 +14,7 @@ The cardiovascular evaluation uses coronary artery disease and heart-failure res
 
 - `prior_verification/`: implementation, 93-test verification suite, fixtures, simulations, numerical checks, and generated audit outputs used before the locked cardiovascular evaluation.
 - `external_validation/`: prospectively frozen multi-tissue cardiovascular protocol, locked implementation, 25-test validation suite, source/provenance audits, terminal registries, and reporting artifacts.
+- `modern_methods_extension/`: four-architecture multi-signal benchmark, LD-GuardNet source code, out-of-distribution predictions, three model checkpoints, model card, environment records, editable figures, and a separate integrity manifest.
 - `PEER_REVIEW_PACKAGE_SHA256_MANIFEST.tsv`: the immutable 323-record checksum manifest of the peer-review supplementary ZIP from which this public repository was prepared. It verifies that original ZIP after extraction; public-release metadata intentionally changes the root and prior-verification README files.
 - `RELEASE_SHA256_MANIFEST.tsv`: repository-wide checksums for the public release, excluding Git metadata and the manifest itself.
 
@@ -47,6 +48,10 @@ Expected result: `25 passed` and both R checks pass. The locked R checks require
 
 The release was checked with Python 3.12.10. Exact Python and R package versions are recorded in the included environment and session-information files.
 
+### Modern-methods extension
+
+See [`modern_methods_extension/README.md`](modern_methods_extension/README.md) for the exact scripts, inputs, outputs, and scope boundary. The formal extension contains 1,800 attempted multi-signal replicates and 3,200 out-of-distribution graph predictions. LD-GuardNet is a warning layer only; low default-threshold recall for LD mismatch and unchanged calibration preclude its use as a deterministic gate.
+
 ## Reproducing the cardiovascular evaluation
 
 The execution contract and commands are documented in [`external_validation/code_and_protocol/README.md`](external_validation/code_and_protocol/README.md). Reproduction with the original resources requires users to obtain the cited third-party datasets under their own access terms and verify each source against the locked provenance metadata. The pipeline does not download or redistribute restricted source data automatically.
@@ -73,9 +78,9 @@ The exact file-level scope is described in [`LICENSE_SCOPE.md`](LICENSE_SCOPE.md
 
 Please cite the archived release:
 
-> Tao, Z., Zhang, Y., Zhong, C., Zhou, J., & Fan, G. (2026). *An executable fail-closed contract for regional eQTL–GWAS integration: a multi-tissue technical evaluation in coronary artery disease and heart failure* (Version 0.1.2) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.22242564
+> Tao, Z., Zhang, Y., Zhong, C., Zhou, J., Gao, W., Ran, Y., & Fan, G. (2026). *Fail-closed validation with LD-graph anomaly triage for regional eQTL–GWAS integration: multi-tissue benchmarking in coronary artery disease and heart failure* (Version 0.2.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.22241026
 
-The version-specific DOI is `10.5281/zenodo.22242564`; the concept DOI for all versions is `10.5281/zenodo.22241026`. Version 0.1.2 restores the complete author order: Zhiyong Tao, Yiwei Zhang, Chulin Zhong, Jin Zhou, and Guohua Fan.
+The all-versions concept DOI is `10.5281/zenodo.22241026`. Version 0.2.0 uses the complete manuscript author order: Zhiyong Tao, Yiwei Zhang, Chulin Zhong, Jin Zhou, Wenkai Gao, Yujiao Ran, and Guohua Fan.
 
 ## Integrity
 
