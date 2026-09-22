@@ -1,8 +1,8 @@
 {
   "title": "An executable fail-closed integrity contract for regional eQTL–GWAS integration: LD-graph triage and cardiovascular workflow evaluation",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "upload_type": "software",
-  "description": "Versioned software and reproducibility materials for a fail-closed regional eQTL–GWAS integrity contract. Version 0.3.0 includes corrected multi-signal denominators, independent ABF recomputation, an eleven-region synthetic graph challenge, information-controlled comparators, numerical-interface diagnostics, a verified LD-GuardNet architecture schematic, tests, checkpoints, aggregate audit outputs, and an internally frozen cardiovascular workflow evaluation. It supports software-integrity and failure-handling claims, not independent validation, biological association, causal effects, clinical utility, deployment readiness, or general superiority. Raw third-party GWAS, eQTL, genotype-reference data, posterior objects, and controlled-access materials are not redistributed.",
+  "description": "Versioned software and reproducibility materials for a fail-closed regional eQTL–GWAS integrity contract. Version 0.3.1 includes corrected multi-signal denominators, independent ABF recomputation, an eleven-region synthetic graph challenge, information-controlled comparators, numerical-interface diagnostics, a verified LD-GuardNet architecture schematic, tests, checkpoints, aggregate audit outputs, and an internally frozen cardiovascular workflow evaluation. It corrects a stale archive-status sentence in v0.3.0 without changing numerical results. It supports software-integrity and failure-handling claims, not independent validation, biological association, causal effects, clinical utility, deployment readiness, or general superiority. Raw third-party GWAS, eQTL, genotype-reference data, posterior objects, and controlled-access materials are not redistributed.",
   "creators": [
     {
       "name": "Tao, Zhiyong",

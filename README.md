@@ -6,7 +6,7 @@ Versioned code and reproducibility materials for:
 
 > **An executable fail-closed integrity contract for regional eQTL–GWAS integration: LD-graph triage and cardiovascular workflow evaluation**
 
-This repository implements an auditable, fail-closed integrity contract for preparing and evaluating regional eQTL–GWAS analyses. It treats coordinate identity, allele orientation, ordered variant overlap, linkage-disequilibrium provenance, matrix integrity, metadata completeness, and deterministic reruns as explicit preconditions. Inputs that do not satisfy the contract terminate with recorded states instead of being silently repaired or passed downstream. Version 0.3.0 adds corrected multi-signal denominators, an eleven-region graph challenge, information-controlled comparators, numerical-interface diagnostics, and the verified LD-GuardNet architecture schematic.
+This repository implements an auditable, fail-closed integrity contract for preparing and evaluating regional eQTL–GWAS analyses. It treats coordinate identity, allele orientation, ordered variant overlap, linkage-disequilibrium provenance, matrix integrity, metadata completeness, and deterministic reruns as explicit preconditions. Inputs that do not satisfy the contract terminate with recorded states instead of being silently repaired or passed downstream. Version 0.3.1 contains corrected multi-signal denominators, an eleven-region graph challenge, information-controlled comparators, numerical-interface diagnostics, and the verified LD-GuardNet architecture schematic; it supersedes a stale archive-status sentence in v0.3.0 without changing numerical results.
 
 The cardiovascular evaluation uses coronary artery disease and heart-failure resources to study workflow behaviour across multiple tissues. It is an **internally frozen technical evaluation**, not an independent validation or a report of new biological associations, causal effects, drug targets, or clinical utility.
 
@@ -78,9 +78,9 @@ The exact file-level scope is described in [`LICENSE_SCOPE.md`](LICENSE_SCOPE.md
 
 Please cite the archived release:
 
-> Tao, Z., Zhang, Y., Zhong, C., Zhou, J., Gao, W., Ran, Y., Zhang, L., & Fan, G. (2026). *An executable fail-closed integrity contract for regional eQTL–GWAS integration: LD-graph triage and cardiovascular workflow evaluation* (Version 0.3.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.22893656
+> Tao, Z., Zhang, Y., Zhong, C., Zhou, J., Gao, W., Ran, Y., Zhang, L., & Fan, G. (2026). *An executable fail-closed integrity contract for regional eQTL–GWAS integration: LD-graph triage and cardiovascular workflow evaluation* (Version 0.3.1) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.22893851
 
-The version-specific DOI is `10.5281/zenodo.22893656`; the all-versions concept DOI is `10.5281/zenodo.22241026`. Version 0.3.0 uses the complete manuscript author order: Zhiyong Tao, Yiwei Zhang, Chulin Zhong, Jin Zhou, Wenkai Gao, Yujiao Ran, Liqun Zhang, and Guohua Fan.
+The version-specific DOI is `10.5281/zenodo.22893851`; the all-versions concept DOI is `10.5281/zenodo.22241026`. Version 0.3.1 uses the complete manuscript author order: Zhiyong Tao, Yiwei Zhang, Chulin Zhong, Jin Zhou, Wenkai Gao, Yujiao Ran, Liqun Zhang, and Guohua Fan.
 
 ## Integrity
 

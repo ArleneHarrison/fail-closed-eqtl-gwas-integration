@@ -1,9 +1,9 @@
-# v0.3.0 — corrected denominators and cross-region validation
+# v0.3.1 — corrected denominators and cross-region validation
 
-**Archived release DOI:** [10.5281/zenodo.22893656](https://doi.org/10.5281/zenodo.22893656)  
+**Archived release DOI:** [10.5281/zenodo.22893851](https://doi.org/10.5281/zenodo.22893851)  
 **All-versions concept DOI:** [10.5281/zenodo.22241026](https://doi.org/10.5281/zenodo.22241026)
 
-Version 0.3.0 accompanies the manuscript, “An executable fail-closed integrity contract for regional eQTL–GWAS integration: LD-graph triage and cardiovascular workflow evaluation.”
+Version 0.3.1 accompanies the manuscript, “An executable fail-closed integrity contract for regional eQTL–GWAS integration: LD-graph triage and cardiovascular workflow evaluation.” It corrects one stale archive-status sentence retained in v0.3.0; software, data, model checkpoints, figures, and numerical results are unchanged.
 
 ## New or corrected in this release
 

@@ -2,14 +2,14 @@ cff-version: 1.2.0
 message: "If you use this software or its reproducibility materials, please cite the archived release."
 title: "An executable fail-closed integrity contract for regional eQTL–GWAS integration: LD-graph triage and cardiovascular workflow evaluation"
 type: software
-version: 0.3.0
+version: 0.3.1
 date-released: 2026-09-22
 license: Apache-2.0
-doi: 10.5281/zenodo.22893656
+doi: 10.5281/zenodo.22893851
 identifiers:
   - type: doi
-    value: 10.5281/zenodo.22893656
-    description: "Version 0.3.0 archived release"
+    value: 10.5281/zenodo.22893851
+    description: "Version 0.3.1 archived release"
 authors:
   - family-names: Tao
     given-names: Zhiyong

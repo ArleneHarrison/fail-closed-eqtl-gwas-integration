@@ -86,7 +86,8 @@ All results are retained, without performance-based publication filtering.
 ## Integrity and licences
 
 `SHA256SUMS.tsv` lists current bytes, excluding itself and transient interpreter
-caches. The original public DOI remains v0.2.0 and does not archive this revision.
+caches. This corrected extension is archived in Zenodo release v0.3.1
+(https://doi.org/10.5281/zenodo.22893851).
 Project code: Apache-2.0. Project-authored documentation/generated data: CC BY 4.0.
 Third-party rights are unchanged. No raw participant genotype or GWAS/eQTL files
 are redistributed.
