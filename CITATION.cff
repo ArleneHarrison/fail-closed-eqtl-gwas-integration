@@ -1,15 +1,15 @@
 cff-version: 1.2.0
 message: "If you use this software or its reproducibility materials, please cite the archived release."
-title: "Fail-closed validation with LD-graph anomaly triage for regional eQTL–GWAS integration: multi-tissue benchmarking in coronary artery disease and heart failure"
+title: "An executable fail-closed integrity contract for regional eQTL–GWAS integration: LD-graph triage and cardiovascular workflow evaluation"
 type: software
-version: 0.2.0
-date-released: 2026-09-20
+version: 0.3.0
+date-released: 2026-09-22
 license: Apache-2.0
-doi: 10.5281/zenodo.22848192
+doi: 10.5281/zenodo.22893656
 identifiers:
   - type: doi
-    value: 10.5281/zenodo.22848192
-    description: "Version 0.2.0 archived release"
+    value: 10.5281/zenodo.22893656
+    description: "Version 0.3.0 archived release"
 authors:
   - family-names: Tao
     given-names: Zhiyong
@@ -35,6 +35,10 @@ authors:
     given-names: Yujiao
     orcid: "https://orcid.org/0009-0000-6247-4453"
     affiliation: "Renmin Hospital of Wuhan University"
+  - family-names: Zhang
+    given-names: Liqun
+    orcid: "https://orcid.org/0009-0006-8429-9039"
+    affiliation: "Renmin Hospital of Wuhan University"
   - family-names: Fan
     given-names: Guohua
     orcid: "https://orcid.org/0009-0005-7470-7863"
@@ -42,12 +46,12 @@ authors:
 repository-code: "https://github.com/ArleneHarrison/fail-closed-eqtl-gwas-integration"
 url: "https://github.com/ArleneHarrison/fail-closed-eqtl-gwas-integration"
 abstract: >-
-  An executable, auditable fail-closed contract for regional eQTL–GWAS
-  integration, accompanied by synthetic verification, multi-signal
-  robustness experiments, signed-LD graph anomaly triage, and a frozen
-  multi-tissue technical evaluation in coronary artery disease and heart
-  failure. The release supports claims about workflow reliability and
-  failure handling; it does not assert new biological or clinical findings.
+  An executable, auditable fail-closed integrity contract for regional
+  eQTL–GWAS integration, accompanied by synthetic verification, corrected
+  multi-signal robustness experiments, an eleven-region LD-graph challenge,
+  and an internally frozen multi-tissue workflow evaluation in coronary
+  artery disease and heart failure. The release supports software-integrity
+  and failure-handling claims; it does not assert biological or clinical findings.
 keywords:
   - eQTL
   - GWAS

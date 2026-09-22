@@ -1,6 +1,6 @@
-# Prior verification package
+# ESM_1: Code and reproducibility package
 
-This directory contains the code and reproducibility materials used to verify the fail-closed regional eQTL–GWAS integration contract before the locked cardiovascular technical evaluation. It includes source code, automated tests, synthetic fixtures, benchmark outputs, tables, figures, environment records, and checksums. It does not redistribute raw third-party eQTL, GWAS, or reference-genotype files.
+This anonymous peer-review package accompanies *An executable fail-closed contract for reliable regional eQTL–GWAS integration*. It contains source code, automated tests, generated fixtures, benchmark outputs, tables, figures, environment records, and checksums. It does not redistribute raw third-party eQTL, GWAS, or reference-genotype files.
 
 ## Quick verification
 
@@ -16,6 +16,11 @@ The submission-packaging rerun used Python 3.12.10, NumPy 2.5.2, pandas 2.3.3, S
 
 The generated outputs support software-integrity, numerical, LD-portability, and controlled downstream-sensitivity claims only. They do not establish biological association, causal inference, clinical utility, or superiority over other tools. The historical fixed-case LD matrix discussed in the manuscript is not available; that specific historical case cannot be numerically reproduced from this package.
 
-## Licensing
+## Current licensing (supersedes the historical review-only notice)
 
-Project-authored software in this directory is licensed under Apache-2.0. Project-authored documentation, figures, tables, and generated audit data are licensed under CC BY 4.0. Third-party materials remain subject to their original terms. See the repository-root `LICENSE_SCOPE.md` for details.
+The former confidential-review-only restriction in this README is superseded
+for project-authored material by the public release's Apache-2.0 software licence
+and CC BY 4.0 documentation/generated-material licence. See the package-root
+LICENSE_SCOPE.md and licence texts. This correction does not extend any licence
+to third-party data or code. The original v0.2.0 archived bytes are unchanged;
+this is a corrected local revision package, not a replacement of that DOI record.

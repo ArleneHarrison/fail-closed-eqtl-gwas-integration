@@ -2,11 +2,11 @@
   "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
   "@type": "SoftwareSourceCode",
   "name": "Fail-closed regional eQTL–GWAS integration",
-  "description": "An executable and auditable fail-closed contract for regional eQTL–GWAS integration with multi-signal robustness experiments, signed-LD graph anomaly triage, and a multi-tissue cardiovascular technical evaluation.",
-  "version": "0.2.0",
-  "datePublished": "2026-09-20",
-  "identifier": "https://doi.org/10.5281/zenodo.22848192",
-  "sameAs": "https://zenodo.org/records/22848192",
+  "description": "An executable and auditable fail-closed integrity contract for regional eQTL–GWAS integration with corrected multi-signal robustness experiments, LD-graph anomaly triage, and an internally frozen cardiovascular workflow evaluation.",
+  "version": "0.3.0",
+  "datePublished": "2026-09-22",
+  "identifier": "https://doi.org/10.5281/zenodo.22893656",
+  "sameAs": "https://zenodo.org/records/22893656",
   "codeRepository": "https://github.com/ArleneHarrison/fail-closed-eqtl-gwas-integration",
   "license": "https://spdx.org/licenses/Apache-2.0",
   "programmingLanguage": ["Python", "R", "Shell"],
@@ -61,6 +61,13 @@
       "givenName": "Yujiao",
       "familyName": "Ran",
       "@id": "https://orcid.org/0009-0000-6247-4453",
+      "affiliation": "Renmin Hospital of Wuhan University"
+    },
+    {
+      "@type": "Person",
+      "givenName": "Liqun",
+      "familyName": "Zhang",
+      "@id": "https://orcid.org/0009-0006-8429-9039",
       "affiliation": "Renmin Hospital of Wuhan University"
     },
     {

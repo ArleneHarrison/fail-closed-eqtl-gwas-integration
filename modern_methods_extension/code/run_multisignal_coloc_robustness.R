@@ -159,6 +159,8 @@ for (replicate in seq_len(replicates)) {
         d1 <- make_dataset(z1, fit_r, n, eur$variants)
         d2 <- make_dataset(z2, fit_r, n, eur$variants)
         started <- proc.time()[["elapsed"]]
+        # ABF does not depend on SuSiE convergence or an LD input.
+        abf_independent <- regional_pph4_abf(d1, d2)
         observed <- tryCatch({
           fit1 <- fit_susie_dataset(d1)
           fit2 <- fit_susie_dataset(d2)
@@ -169,7 +171,7 @@ for (replicate in seq_len(replicates)) {
             fit2_converged = isTRUE(fit2$converged),
             comparable_pairs = as.integer(coloc_multi[["comparable_pairs"]]),
             max_pp_h4_susie = as.numeric(coloc_multi[["max_pp_h4"]]),
-            pp_h4_abf = regional_pph4_abf(d1, d2),
+            pp_h4_abf = abf_independent,
             trait1_all_causal_in_cs = any_cs_contains(fit1, truth$t1),
             trait2_all_causal_in_cs = any_cs_contains(fit2, truth$t2),
             error = ""
@@ -178,7 +180,7 @@ for (replicate in seq_len(replicates)) {
           list(
             completed = FALSE, fit1_converged = NA, fit2_converged = NA,
             comparable_pairs = NA_integer_, max_pp_h4_susie = NA_real_,
-            pp_h4_abf = NA_real_, trait1_all_causal_in_cs = NA,
+            pp_h4_abf = abf_independent, trait1_all_causal_in_cs = NA,
             trait2_all_causal_in_cs = NA, error = conditionMessage(e)
           )
         })
@@ -226,9 +228,9 @@ groups <- split(results, interaction(results$architecture, results$sample_size,
 summary_rows <- lapply(groups, function(x) {
   complete <- x[x$completed, , drop = FALSE]
   h4_susie <- sum(complete$max_pp_h4_susie >= 0.8, na.rm = TRUE)
-  h4_abf <- sum(complete$pp_h4_abf >= 0.8, na.rm = TRUE)
+  h4_abf <- sum(x$pp_h4_abf >= 0.8, na.rm = TRUE)
   denom_susie <- sum(is.finite(complete$max_pp_h4_susie))
-  denom_abf <- sum(is.finite(complete$pp_h4_abf))
+  denom_abf <- sum(is.finite(x$pp_h4_abf))
   ci_susie <- wilson_interval(h4_susie, denom_susie)
   ci_abf <- wilson_interval(h4_abf, denom_abf)
   data.frame(
@@ -237,6 +239,9 @@ summary_rows <- lapply(groups, function(x) {
     ld_policy = x$ld_policy[[1]],
     attempted = nrow(x),
     completed = sum(x$completed),
+    failed = sum(!x$completed),
+    completed_without_finite_pph4 = sum(x$completed & !is.finite(x$max_pp_h4_susie)),
+    finite_pph4 = denom_susie,
     both_susie_converged = sum(x$fit1_converged & x$fit2_converged, na.rm = TRUE),
     median_comparable_pairs = if (nrow(complete)) median(complete$comparable_pairs, na.rm = TRUE) else NA,
     median_max_pp_h4_susie = if (denom_susie) median(complete$max_pp_h4_susie, na.rm = TRUE) else NA,
@@ -245,7 +250,7 @@ summary_rows <- lapply(groups, function(x) {
     h4_ge_0_8_susie_rate = if (denom_susie) h4_susie / denom_susie else NA,
     h4_ge_0_8_susie_ci_low = ci_susie[[1]],
     h4_ge_0_8_susie_ci_high = ci_susie[[2]],
-    median_pp_h4_abf = if (denom_abf) median(complete$pp_h4_abf, na.rm = TRUE) else NA,
+    median_pp_h4_abf = if (denom_abf) median(x$pp_h4_abf, na.rm = TRUE) else NA,
     h4_ge_0_8_abf = h4_abf,
     h4_ge_0_8_abf_denominator = denom_abf,
     h4_ge_0_8_abf_rate = if (denom_abf) h4_abf / denom_abf else NA,
@@ -291,7 +296,7 @@ panel_b <- ggplot(plot_data, aes(ld_policy, h4_ge_0_8_susie_rate, fill = sample_
   facet_wrap(~ architecture, ncol = 2) +
   scale_fill_manual(values = c("#9ECAE1", "#6BAED6", "#2171B5")) +
   coord_cartesian(ylim = c(0, 1)) +
-  labs(x = NULL, y = "Proportion with PP.H4 >= 0.8", fill = NULL, tag = "b")
+  labs(x = NULL, y = "High PP.H4 / finite comparable posteriors", fill = NULL, tag = "b")
 
 theme_journal <- theme_classic(base_size = 9) +
   theme(axis.text.x = element_text(angle = 25, hjust = 1),

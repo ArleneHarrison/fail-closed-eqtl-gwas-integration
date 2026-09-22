@@ -108,7 +108,10 @@ run_replicate <- function(replicate) {
   z2_flipped[flip_index] <- -z2_flipped[flip_index]
   condition_inputs <- list(
     correct = list(z = z2, r = r_eur, detectable = FALSE),
-    summary_order_permuted = list(z = z2[permutation], r = r_eur, detectable = TRUE),
+    # Historical label retained for reproducibility: this permutes VALUES only.
+    # No identifier order is changed and this consumer experiment does not run
+    # the gate. Direct identifier-order protection cannot be claimed here.
+    summary_order_permuted = list(z = z2[permutation], r = r_eur, detectable = FALSE),
     ten_percent_sign_flipped = list(z = z2_flipped, r = r_eur, detectable = FALSE),
     # Output drift under ancestry substitution is measured here, but protection
     # is conditional on truthful caller-supplied provenance plus an enforced
@@ -170,7 +173,7 @@ summary <- summary[match(conditions, summary$condition), ]
 write.table(summary, file.path(out_dir, "downstream_stress_test_summary.tsv"), sep = "\t",
             row.names = FALSE, quote = FALSE)
 
-labels <- c(correct = "Correct contract", summary_order_permuted = "Summary order\npermuted",
+labels <- c(correct = "Correct contract", summary_order_permuted = "Summary values\npermuted",
             ten_percent_sign_flipped = "10% sign flips\n(content corruption)",
             EAS_LD_substituted = "EAS LD\nsubstituted", AFR_LD_substituted = "AFR LD\nsubstituted")
 plot_data <- results
@@ -212,7 +215,8 @@ manifest <- list(
                 paste0("coloc.abf ", as.character(packageVersion("coloc")))),
   coloc_priors = "p1=1e-4, p2=1e-4, p12=1e-5; quantitative traits; sdY=1; synthetic MAF=0.25",
   important_boundary = paste(
-    "The implemented exact-order check can stop the summary-order mismatch.",
+    "This value-only permutation keeps identifiers unchanged and was not passed to the gate.",
+    "Exact-order checking only blocks identifier-carrying row permutations, a different fault.",
     "Ancestry/LD substitution is preventable only with truthful declared provenance and an enforced caller policy; matrix contents do not authenticate ancestry.",
     "An internally corrupted effect sign with otherwise self-consistent metadata is intentionally treated",
     "as an undetectable content-level failure boundary, not as a prevented error."

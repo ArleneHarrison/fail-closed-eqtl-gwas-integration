@@ -1,0 +1,18 @@
+{
+  "frozen_checkpoint_max_abs_difference": 2.9779052779232984e-08,
+  "original_input_sha256": {
+    "EUR": "27ee0fa576d4c8cf8ef64019d12ea1058d7e2979c1bdc1cb2a58780307146d9c",
+    "EAS": "9c2d1afcba50cfe20ce874c5bfcc8e9b6924710f3b8c868ca3036d28639acf83",
+    "AFR": "67ec6972b312e57c149f1c091ee4310e80220a67767f8dcd6c0911a03f84b919",
+    "SAS": "70b8eb916d557f952ba77b44425ccc9a86685aafa76bffbcd011ee7d0e1775c8",
+    "AMR": "f035801850cdc7c8e7ef39e9c67293c033cdb5bfcf7ed039cd1db22260399dd3"
+  },
+  "regions": 11,
+  "challenge_graphs": 3520,
+  "bootstrap_unit": "outer replicate; 100 clusters of 32 graphs",
+  "bootstrap_repeats": 2000,
+  "scope": "review-triggered exploratory evaluation; same EUR donors, different loci; simulated z",
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "torch": "2.11.0+cpu",
+  "numpy": "2.3.5"
+}

@@ -1,0 +1,57 @@
+[
+  {
+    "file": "Fig1.png",
+    "bytes": 156573,
+    "sha256": "5a966f6912b60e2016d626cf05bc443a1138277dbc5ccf7aaf2b191a0ff10c71"
+  },
+  {
+    "file": "Fig10.png",
+    "bytes": 498860,
+    "sha256": "433d6f972057485836f7379e456835e375c092b0b27ae3849f2a53868158d81f"
+  },
+  {
+    "file": "Fig11.png",
+    "bytes": 438005,
+    "sha256": "e192b3f2eb3f1291f8fb9aa2b0683b56b58fa921e7ecd6a60330aab2a5af94a0"
+  },
+  {
+    "file": "Fig2.png",
+    "bytes": 162381,
+    "sha256": "f19a05c2da77bf14ba63e83586c4ecc8aa4b04e0e184da1f32b1698ed9ea229a"
+  },
+  {
+    "file": "Fig3.png",
+    "bytes": 235388,
+    "sha256": "ab06b2b840b0565283cfaf7c218bf4fe4ef47845f6dfae13935862e939d238da"
+  },
+  {
+    "file": "Fig4.png",
+    "bytes": 245215,
+    "sha256": "0c0310841980e6e1d3151d985422e67bb3c12acc4678c6a7f03f707e929274c7"
+  },
+  {
+    "file": "Fig5.png",
+    "bytes": 191978,
+    "sha256": "23c090bad7787ed5250348a8799347e580e539591adc75dbec5cbac0d89de8bf"
+  },
+  {
+    "file": "Fig6.png",
+    "bytes": 459979,
+    "sha256": "6b3d977d46607777a8d1fecfb611e4b0e192a9bfb1194a2acc5a4df35742ebaa"
+  },
+  {
+    "file": "Fig7.png",
+    "bytes": 291184,
+    "sha256": "acd41ebe0e118713212580d2bb3937ced5347e86c714c3d5ed315ffb16c3096f"
+  },
+  {
+    "file": "Fig8.png",
+    "bytes": 487521,
+    "sha256": "5ced5c912b585a62a6db0746bfacb905d8fe5603a66c7e1fcfa4b3b83e90ca83"
+  },
+  {
+    "file": "Fig9.png",
+    "bytes": 725001,
+    "sha256": "134586d98c24475f6b11999048e5b560ebbbbe485c22767117fa949d6ebf2040"
+  }
+]

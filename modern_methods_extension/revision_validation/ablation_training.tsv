@@ -1,0 +1,7 @@
+mode	seed	best_epoch	best_validation_auc
+pooled_mlp	11	67	0.9156571502057614
+pooled_mlp	29	33	0.9151038451646091
+pooled_mlp	47	28	0.9155009002057612
+unsigned_graph	11	95	0.9980542695473251
+unsigned_graph	29	100	0.998423353909465
+unsigned_graph	47	92	0.9976832561728395

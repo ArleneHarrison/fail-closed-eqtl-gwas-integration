@@ -1,0 +1,70 @@
+{
+  "source_file": "run_ld_guardnet_benchmark.py",
+  "source_sha256": "339255cd52d6aa01327964a6ab6e87535a8c7babf0bd3d7454724aae3ae381bc",
+  "type": "deterministic code-grounded architecture schematic; no performance data",
+  "parameter_count": 12772,
+  "tensor_shapes": {
+    "block1": {
+      "input": [
+        1,
+        100,
+        15
+      ],
+      "output": [
+        1,
+        100,
+        48
+      ]
+    },
+    "block2": {
+      "input": [
+        1,
+        100,
+        144
+      ],
+      "output": [
+        1,
+        100,
+        48
+      ]
+    },
+    "classifier": {
+      "input": [
+        1,
+        96
+      ],
+      "output": [
+        1,
+        4
+      ]
+    }
+  },
+  "operator_formula_check": "passed",
+  "width_mm": 170,
+  "height_mm": 176,
+  "png_dpi": 600,
+  "model_or_result_changes": false,
+  "journal_guidance": "https://link.springer.com/journal/12864/submission-guidelines",
+  "figure_formats": [
+    "vector PDF with embedded TrueType fonts",
+    "editable SVG text",
+    "600 dpi PNG"
+  ],
+  "files": [
+    {
+      "file": "Fig9_LD_GuardNet_architecture.pdf",
+      "bytes": 42652,
+      "sha256": "249afc1e6118e42bdc5b8312597bcdc8cef8c0e15e32924e9a4879a168db6b99"
+    },
+    {
+      "file": "Fig9_LD_GuardNet_architecture.png",
+      "bytes": 725001,
+      "sha256": "134586d98c24475f6b11999048e5b560ebbbbe485c22767117fa949d6ebf2040"
+    },
+    {
+      "file": "Fig9_LD_GuardNet_architecture.svg",
+      "bytes": 57657,
+      "sha256": "e68b1e1d2677d1534196eced4ad7f6b77b40a825fcd4bcfe8df332b0fa9f1bcc"
+    }
+  ]
+}

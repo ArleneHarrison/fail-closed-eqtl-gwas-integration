@@ -4,17 +4,17 @@
 
 Versioned code and reproducibility materials for:
 
-> **Fail-closed validation with LD-graph anomaly triage for regional eQTL–GWAS integration: multi-tissue benchmarking in coronary artery disease and heart failure**
+> **An executable fail-closed integrity contract for regional eQTL–GWAS integration: LD-graph triage and cardiovascular workflow evaluation**
 
-This repository implements an auditable, fail-closed contract for preparing and evaluating regional eQTL–GWAS analyses. It treats coordinate identity, allele orientation, ordered variant overlap, linkage-disequilibrium provenance, matrix integrity, metadata completeness, and deterministic reruns as explicit preconditions. Inputs that do not satisfy the contract terminate with recorded states instead of being silently repaired or passed downstream. Version 0.2.0 adds a multi-signal colocalization robustness experiment and LD-GuardNet, a compact signed-LD graph neural network for optional anomaly triage.
+This repository implements an auditable, fail-closed integrity contract for preparing and evaluating regional eQTL–GWAS analyses. It treats coordinate identity, allele orientation, ordered variant overlap, linkage-disequilibrium provenance, matrix integrity, metadata completeness, and deterministic reruns as explicit preconditions. Inputs that do not satisfy the contract terminate with recorded states instead of being silently repaired or passed downstream. Version 0.3.0 adds corrected multi-signal denominators, an eleven-region graph challenge, information-controlled comparators, numerical-interface diagnostics, and the verified LD-GuardNet architecture schematic.
 
-The cardiovascular evaluation uses coronary artery disease and heart-failure resources to study workflow behaviour across multiple tissues. It is a **technical validation**, not a report of new biological associations, causal effects, drug targets, or clinical utility.
+The cardiovascular evaluation uses coronary artery disease and heart-failure resources to study workflow behaviour across multiple tissues. It is an **internally frozen technical evaluation**, not an independent validation or a report of new biological associations, causal effects, drug targets, or clinical utility.
 
 ## What is included
 
 - `prior_verification/`: implementation, 93-test verification suite, fixtures, simulations, numerical checks, and generated audit outputs used before the locked cardiovascular evaluation.
-- `external_validation/`: prospectively frozen multi-tissue cardiovascular protocol, locked implementation, 25-test validation suite, source/provenance audits, terminal registries, and reporting artifacts.
-- `modern_methods_extension/`: four-architecture multi-signal benchmark, LD-GuardNet source code, out-of-distribution predictions, three model checkpoints, model card, environment records, editable figures, and a separate integrity manifest.
+- `external_validation/`: internally frozen multi-tissue cardiovascular protocol, locked implementation, 25-test validation suite, source/provenance audits, terminal registries, and reporting artifacts. Historical audit files retain their original wording and timestamps.
+- `modern_methods_extension/`: corrected multi-signal benchmark, eleven-region graph challenge, LD-GuardNet source code, five comparator/ablation models, checkpoints, numerical-interface diagnostics, model card, environment records, editable figures, and a separate integrity manifest.
 - `PEER_REVIEW_PACKAGE_SHA256_MANIFEST.tsv`: the immutable 323-record checksum manifest of the peer-review supplementary ZIP from which this public repository was prepared. It verifies that original ZIP after extraction; public-release metadata intentionally changes the root and prior-verification README files.
 - `RELEASE_SHA256_MANIFEST.tsv`: repository-wide checksums for the public release, excluding Git metadata and the manifest itself.
 
@@ -50,7 +50,7 @@ The release was checked with Python 3.12.10. Exact Python and R package versions
 
 ### Modern-methods extension
 
-See [`modern_methods_extension/README.md`](modern_methods_extension/README.md) for the exact scripts, inputs, outputs, and scope boundary. The formal extension contains 1,800 attempted multi-signal replicates and 3,200 out-of-distribution graph predictions. LD-GuardNet is a warning layer only; low default-threshold recall for LD mismatch and unchanged calibration preclude its use as a deterministic gate.
+See [`modern_methods_extension/README.md`](modern_methods_extension/README.md) for the exact scripts, inputs, outputs, and scope boundary. The extension contains 600 base multi-signal datasets evaluated under three paired LD conditions (1,800 condition evaluations; 1,686 finite posteriors) and 3,520 synthetic challenge inputs from eleven unseen regions. LD-GuardNet is a warning prototype only; its valid-input false-alert rate and limited sparse-error sensitivity preclude use as a deterministic gate.
 
 ## Reproducing the cardiovascular evaluation
 
@@ -78,9 +78,9 @@ The exact file-level scope is described in [`LICENSE_SCOPE.md`](LICENSE_SCOPE.md
 
 Please cite the archived release:
 
-> Tao, Z., Zhang, Y., Zhong, C., Zhou, J., Gao, W., Ran, Y., & Fan, G. (2026). *Fail-closed validation with LD-graph anomaly triage for regional eQTL–GWAS integration: multi-tissue benchmarking in coronary artery disease and heart failure* (Version 0.2.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.22848192
+> Tao, Z., Zhang, Y., Zhong, C., Zhou, J., Gao, W., Ran, Y., Zhang, L., & Fan, G. (2026). *An executable fail-closed integrity contract for regional eQTL–GWAS integration: LD-graph triage and cardiovascular workflow evaluation* (Version 0.3.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.22893656
 
-The version-specific DOI is `10.5281/zenodo.22848192`; the all-versions concept DOI is `10.5281/zenodo.22241026`. Version 0.2.0 uses the complete manuscript author order: Zhiyong Tao, Yiwei Zhang, Chulin Zhong, Jin Zhou, Wenkai Gao, Yujiao Ran, and Guohua Fan.
+The version-specific DOI is `10.5281/zenodo.22893656`; the all-versions concept DOI is `10.5281/zenodo.22241026`. Version 0.3.0 uses the complete manuscript author order: Zhiyong Tao, Yiwei Zhang, Chulin Zhong, Jin Zhou, Wenkai Gao, Yujiao Ran, Liqun Zhang, and Guohua Fan.
 
 ## Integrity
 

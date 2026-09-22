@@ -1,0 +1,3 @@
+signed_graph: 3520 scores reproduced; max_abs_difference=2.97904968e-08
+pooled_mlp: 3520 scores reproduced; max_abs_difference=2.98019409e-08
+unsigned_graph: 3520 scores reproduced; max_abs_difference=2.97531128e-08

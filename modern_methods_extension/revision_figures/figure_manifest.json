@@ -1,0 +1,100 @@
+[
+  {
+    "file": "Fig3.png",
+    "sha256": "ab06b2b840b0565283cfaf7c218bf4fe4ef47845f6dfae13935862e939d238da",
+    "sources": [
+      "manuscript\\main.tex"
+    ],
+    "figure_size_inches": [
+      6.69,
+      3.7
+    ],
+    "dpi": 600
+  },
+  {
+    "file": "Fig3.svg",
+    "sha256": "3eafdb0e0d6c60797ebdff399f65985bf23869691f1e7d35623712922309d53f",
+    "sources": [
+      "manuscript\\main.tex"
+    ],
+    "figure_size_inches": [
+      6.69,
+      3.7
+    ],
+    "dpi": 600
+  },
+  {
+    "file": "Fig7.png",
+    "sha256": "acd41ebe0e118713212580d2bb3937ced5347e86c714c3d5ed315ffb16c3096f",
+    "sources": [
+      "supplementary\\code_package\\ESM_1_Code_and_Reproducibility_Package\\external_validation\\audit_and_results\\formal_model_terminal_counts.tsv"
+    ],
+    "figure_size_inches": [
+      6.69,
+      3.6
+    ],
+    "dpi": 600
+  },
+  {
+    "file": "Fig7.svg",
+    "sha256": "1209476c644668ef338dd550d04aeb1dd5a5e6614f8d3f5ebf3a1f790dd8b11a",
+    "sources": [
+      "supplementary\\code_package\\ESM_1_Code_and_Reproducibility_Package\\external_validation\\audit_and_results\\formal_model_terminal_counts.tsv"
+    ],
+    "figure_size_inches": [
+      6.69,
+      3.6
+    ],
+    "dpi": 600
+  },
+  {
+    "file": "Fig9.png",
+    "sha256": "433d6f972057485836f7379e456835e375c092b0b27ae3849f2a53868158d81f",
+    "sources": [
+      "supplementary\\modern_methods_extension\\ld_guardnet\\ood_predictions.tsv"
+    ],
+    "figure_size_inches": [
+      6.69,
+      5.5
+    ],
+    "dpi": 600
+  },
+  {
+    "file": "Fig9.svg",
+    "sha256": "65d131b492be1f3019d3fb3d32c98cf63adaa3ade56d28aa45f1a8ada2c26173",
+    "sources": [
+      "supplementary\\modern_methods_extension\\ld_guardnet\\ood_predictions.tsv"
+    ],
+    "figure_size_inches": [
+      6.69,
+      5.5
+    ],
+    "dpi": 600
+  },
+  {
+    "file": "Fig10.png",
+    "sha256": "e192b3f2eb3f1291f8fb9aa2b0683b56b58fa921e7ecd6a60330aab2a5af94a0",
+    "sources": [
+      "supplementary\\modern_methods_extension\\revision_validation\\all_model_challenge_summary.tsv",
+      "supplementary\\modern_methods_extension\\revision_validation\\all_model_region_fault_metrics.tsv"
+    ],
+    "figure_size_inches": [
+      6.69,
+      5.4
+    ],
+    "dpi": 600
+  },
+  {
+    "file": "Fig10.svg",
+    "sha256": "565b95c9a8dee81288e51e9d302869392715d5c5ff0c5fa0265d95b26fa77d31",
+    "sources": [
+      "supplementary\\modern_methods_extension\\revision_validation\\all_model_challenge_summary.tsv",
+      "supplementary\\modern_methods_extension\\revision_validation\\all_model_region_fault_metrics.tsv"
+    ],
+    "figure_size_inches": [
+      6.69,
+      5.4
+    ],
+    "dpi": 600
+  }
+]

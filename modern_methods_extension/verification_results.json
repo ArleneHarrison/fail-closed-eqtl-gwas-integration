@@ -1,0 +1,30 @@
+[
+  {
+    "check": "core_python",
+    "returncode": 0
+  },
+  {
+    "check": "external_python",
+    "returncode": 0
+  },
+  {
+    "check": "revision_integrity",
+    "returncode": 0
+  },
+  {
+    "check": "network_replay",
+    "returncode": 0
+  },
+  {
+    "check": "r_api_ceiling",
+    "returncode": 0
+  },
+  {
+    "check": "r_minimal",
+    "returncode": 0
+  },
+  {
+    "check": "authors_affiliations_declarations_unchanged",
+    "returncode": 0
+  }
+]

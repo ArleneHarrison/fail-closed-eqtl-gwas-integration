@@ -1,29 +1,32 @@
-# v0.2.0 — multi-signal and signed-LD graph extension
+# v0.3.0 — corrected denominators and cross-region validation
 
-**Archived release DOI:** [10.5281/zenodo.22848192](https://doi.org/10.5281/zenodo.22848192)  
+**Archived release DOI:** [10.5281/zenodo.22893656](https://doi.org/10.5281/zenodo.22893656)  
 **All-versions concept DOI:** [10.5281/zenodo.22241026](https://doi.org/10.5281/zenodo.22241026)
 
-Version 0.2.0 adds the computational extensions used in the revised manuscript, ``Fail-closed validation with LD-graph anomaly triage for regional eQTL–GWAS integration: multi-tissue benchmarking in coronary artery disease and heart failure.''
+Version 0.3.0 accompanies the manuscript, “An executable fail-closed integrity contract for regional eQTL–GWAS integration: LD-graph triage and cardiovascular workflow evaluation.”
 
-## New in this release
+## New or corrected in this release
 
-- A 1,800-replicate, four-architecture, three-sample-size and three-LD-policy multi-signal robustness benchmark.
-- LD-GuardNet, a 12,772-parameter signed-LD graph neural network for optional anomaly triage.
-- A leakage-aware three-seed evaluation with 3,200 out-of-distribution graphs from held-out ancestry panels, sample sizes, causal architectures, and random seeds.
-- A logistic-regression comparator, bootstrap intervals, calibration output, condition-level predictions, three compact model checkpoints, and a model card.
-- Editable PNG/SVG figures, complete environment records, and a separate SHA-256 manifest for the extension.
-- Complete manuscript author order: Zhiyong Tao, Yiwei Zhang, Chulin Zhong, Jin Zhou, Wenkai Gao, Yujiao Ran, and Guohua Fan.
+- Corrected the multi-signal outcome accounting to 600 base datasets evaluated under three paired LD conditions: 1,800 condition evaluations, 48 nonconvergences, 66 completed evaluations without finite comparable PP.H4, and 1,686 finite posteriors.
+- Recomputed ABF results independently for all 600 base datasets and retained a condition-level attempt ledger.
+- Recalculated uncertainty with outer-replicate clustering and paired resampling.
+- Added an eleven-region synthetic challenge comprising 3,520 content inputs plus 440 explicit identifier-order faults.
+- Added unsigned-graph, pooled-MLP, logistic-regression, and SuSiE-RSS conditional-residual comparators, together with graph ablations and validation-selected thresholds.
+- Added numerical-interface diagnostics separating projected float64 simulation LD from float32 casting failures.
+- Added the code-verified LD-GuardNet architecture schematic in PNG, SVG, and vector PDF formats.
+- Added Liqun Zhang to the current manuscript authorship metadata and synchronized the eight-author order.
+- Replaced broad reliability and external-validation wording with the narrower integrity-contract, synthetic-warning, and internally frozen workflow-evaluation terminology used by the manuscript.
 
-## Locked formal results
+## Current quantitative boundaries
 
-- Multi-signal attempts: 1,800; completed: 1,752.
-- In a no-shared-causal setting at N=20,000, high `coloc.susie` PP.H4 counts changed from 0/50 with matched EUR LD to 19/39 and 26/50 with substituted EAS and AFR LD.
-- LD-GuardNet out-of-distribution macro AUROC: 0.943, versus 0.863 for the aggregate logistic baseline.
-- LD-mismatch argmax recall: 0.201; anomaly Brier score: 0.164 versus 0.163 for the logistic baseline.
+- LD-GuardNet binary anomaly AUROC in the eleven-region challenge: 0.916.
+- Valid-input false alerts at the validation-selected threshold: 57/440.
+- Sensitivity for 1% sign errors: 155/440.
+- Cardiovascular workflow attempts: 192; 15 with comparable credible-set pairs, 145 completed without comparable pairs, and 32 nonconvergences.
 
 ## Interpretation boundary
 
-LD-GuardNet is an optional warning layer, not a deterministic gate or ancestry authenticator. The extension is synthetic and uses one 100-variant region. It does not establish association, empirical colocalization, causal biology, clinical utility, deployment readiness, or general superiority over existing tools.
+LD-GuardNet is a synthetic warning prototype, not a deterministic eligibility gate, ancestry authenticator, repair method, or deployment-validated detector. The cardiovascular analysis demonstrates implementation consistency across selected resources; it is not an independent replication or a biological/clinical study. No new disease association, causal mechanism, therapeutic claim, clinical utility, or general superiority over existing tools is asserted.
 
 ## Data and licensing
 

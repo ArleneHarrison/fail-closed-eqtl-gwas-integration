@@ -410,12 +410,16 @@ def train_network(
 
 
 def bootstrap_interval(
-    y: np.ndarray, probability: np.ndarray, metric: str, seed: int, repeats: int = 500
+    y: np.ndarray, probability: np.ndarray, metric: str, seed: int,
+    repeats: int = 2000, groups: np.ndarray | None = None,
 ) -> tuple[float, float]:
+    if groups is None or len(groups) != len(y):
+        raise ValueError("explicit outer-replicate groups are required")
+    members = [np.flatnonzero(groups == group) for group in np.unique(groups)]
     rng = np.random.default_rng(seed)
     values = []
     for _ in range(repeats):
-        indices = rng.integers(0, len(y), len(y))
+        indices = np.concatenate([members[i] for i in rng.integers(0, len(members), len(members))])
         if len(np.unique(y[indices])) < len(CLASSES):
             continue
         current = probability_metrics(y[indices], probability[indices])[metric]
@@ -561,7 +565,8 @@ def main() -> None:
         and ensemble_metrics["macro_ovr_auc"] - baseline_metrics["macro_ovr_auc"] >= 0.03
     )
     ci = {
-        metric: bootstrap_interval(test["y"], ensemble_probability, metric, config.seed + index)
+        metric: bootstrap_interval(test["y"], ensemble_probability, metric, config.seed + index,
+                                   groups=np.asarray([row['replicate'] for row in test['metadata']]))
         for index, metric in enumerate(("accuracy", "macro_f1", "macro_ovr_auc", "anomaly_auc"))
     }
 
